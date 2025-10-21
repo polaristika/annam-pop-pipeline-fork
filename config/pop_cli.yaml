@@ -1,0 +1,47 @@
+classification:
+  english_confidence_threshold: 0.5
+  exclude_garbled: true
+  fasttext_model: lid.176.bin
+  indic_confidence_threshold: 0.3
+  require_digital: true
+output:
+  formats:
+  - json
+  - markdown
+  image_processing: true
+  include_images: true
+  validation: true
+paths:
+  inventory_csv: pdf_inventory.csv
+  logs: logs
+  output_base: artifacts
+  phase1_output: artifacts/phase1_english
+  phase2_output: artifacts/phase2_indic
+  raw_pdfs: data/raw/POP Bank
+  temp: temp
+phase1:
+  criteria:
+    digital_guess: true
+    garbled_detected: false
+    lang_conf_min: 0.5
+    lang_guess: en
+  name: English Processing
+  processing:
+    enable_translation: false
+    ocr_validation: true
+phase2:
+  criteria:
+    digital_guess: true
+    garbled_detected: false
+    lang_conf_min: 0.3
+    lang_guess: indic
+  name: Indic Processing
+  processing:
+    enable_translation: true
+    ocr_validation: true
+    target_language: en
+processing:
+  default_batch_size: 10
+  max_parallel_processes: 4
+  retry_attempts: 2
+  timeout_per_pdf: 300

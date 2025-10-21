@@ -1,0 +1,4 @@
+filename,state,conf_band,lang_guess,lang_conf,digital_guess,garbled_detected,page_count,size_bytes,file_path
+Area_production_2021_22..pdf,Chattisgarh,No Detection (0.0),unsure,0.0,False,False,12.0,2769497,data/POP Bank/Chattisgarh/Area_production_2021_22..pdf
+Package of Practices - Millet Kangni.pdf,Himachal Pradesh,No Detection (0.0),unsure,0.0,False,False,8.0,1387183,data/POP Bank/Himachal Pradesh/Package of Practices - Millet Kangni.pdf
+Trademark.pdf,Uttarpradesh,No Detection (0.0),unsure,0.0,False,False,2.0,499851,data/POP Bank/Uttarpradesh/Trademark.pdf

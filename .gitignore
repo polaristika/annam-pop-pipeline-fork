@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large Data Files (don't commit raw PDFs and generated artifacts)
+data/raw/POP Bank/
+artifacts/phase1_english/
+artifacts/phase2_indic/
+artifacts/garbled_files/
+
+# Generated Files (except inventory)
+logs/
+*.log
+*.parquet
+
+# Inventory file (keep metadata, ignore if you want to regenerate)
+# Uncomment to track inventory in git:
+# !pdf_inventory.csv
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Backup Files (from cleanup operations)
+*_backup_*/
+cleanup_backup_*/
+restructure_backup_*/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Test Coverage
+.coverage
+htmlcov/
+
+# Model Files (optional - large pretrained models)
+# Uncomment if you don't want to commit the FastText model
+# misc/lid.176.bin
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Documentation Archives (keep only current docs/)
+docs/archive/
+
+# Metadata (keep essential classification files)
+data/metadata/hold_*.csv
+data/metadata/worklist_*.csv
+data/metadata/unprocessed_*.csv
+
+# Test outputs and production run files
+test_*.py
+production_run_*.py
+deploy_*.py
+populate_*.py
+regenerate_*.py
+generate_*.py
+parallel_production.py
+run_production.py
+
+# Markdown analysis/implementation notes (keep only official docs/)
+*_PATTERNS.md
+*_IMPLEMENTATION.md
+*_SUMMARY.md
+*_GUIDE.md
+*_RESULTS.md
+!docs/*.md

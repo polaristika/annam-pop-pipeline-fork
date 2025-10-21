@@ -1,0 +1,252 @@
+================================================================================
+          CLASSIFICATION SUMMARY - 332 UNPROCESSED PDFs
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    CLASSIFICATION × CONFIDENCE MATRIX                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+                         │ No      │ Very Low │  Low   │ Medium │  High  │       │
+Classification           │Detection│  (<0.3)  │(0.3-0.5)│(0.5-0.7)│ (≥0.7) │ TOTAL │
+─────────────────────────┼─────────┼──────────┼────────┼────────┼────────┼───────┤
+Digital English          │   39    │    70    │   3    │   66   │   89   │  267  │
+Digital Indic            │    2    │     1    │   0    │    0   │    0   │    3  │
+Scanned English          │   37    │     3    │   0    │    2   │    0   │   42  │
+Scanned Indic            │    3    │     0    │   0    │    0   │    0   │    3  │
+Error (Classification)   │   17    │     0    │   0    │    0   │    0   │   17  │
+─────────────────────────┼─────────┼──────────┼────────┼────────┼────────┼───────┤
+TOTAL                    │   98    │    74    │   3    │   68   │   89   │  332  │
+                         │ (29.5%) │ (22.3%)  │ (0.9%) │(20.5%) │(26.8%) │(100%) │
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  1️⃣  DIGITAL ENGLISH - 267 files (80.4%)                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📊 Statistics:
+   • Total size: 383.0 MB
+   • Average size: 1,469 KB per file
+   • Average pages: 31.5 pages
+
+🎯 Confidence Breakdown:
+   ✅ High (≥0.7):              89 files (33.3%) → Ready for Phase 4
+   🟡 Medium (0.5-0.7):         66 files (24.7%) → Ready for Phase 4
+   🔸 Low (0.3-0.5):             3 files ( 1.1%) → Need reclassification
+   ⚠️  Very Low (<0.3):         70 files (26.2%) → Need reclassification
+   ❓ No Detection (0.0):       39 files (14.6%) → Need reclassification
+
+🗣️ Language Detection:
+   • Indic:   157 files (58.8%) - Avg confidence: 0.670
+   • Unsure:  110 files (41.2%) - Avg confidence: 0.094
+
+⚠️ Garbled Files:
+   • Clean:    177 files (66.3%)
+   • Garbled:   90 files (33.7%) ← MAJOR ISSUE (mostly Maharashtra)
+
+📍 Top States:
+   1. Rajasthan:    113 files
+   2. Maharashtra:   95 files (includes 81 garbled)
+   3. Punjab:        14 files
+   4. Andra Pradesh: 13 files
+   5. Telangana:     10 files
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   2️⃣  DIGITAL INDIC - 3 files (0.9%)                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📊 Statistics:
+   • Total size: 7.4 MB
+   • Average size: 2,533 KB per file
+   • Average pages: 46 pages
+
+🎯 Confidence: Very Low/None (need language verification)
+📍 States: Tamilnadu (2), Uttarpradesh (1)
+
+📄 Files:
+   1. Noynadi_noymulta_nadi_the_velayutham.pdf (104 pages, Tamilnadu)
+   2. diseases that cannot be cured by medicine.pdf (29 pages, Tamilnadu)
+   3. Trademark-2.pdf (5 pages, Uttarpradesh)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  3️⃣  SCANNED ENGLISH - 42 files (12.7%)                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📊 Statistics:
+   • Total size: 158.6 MB
+   • Average size: 3,867 KB per file
+   • Average pages: 16.3 pages
+
+🎯 Confidence:
+   • No Detection (0.0):        37 files (88.1%) ← Need OCR
+   • Very Low (<0.3):            3 files ( 7.1%)
+   • Medium (0.5-0.7):           2 files ( 4.8%)
+
+⚠️ Garbled Files: 0 (all clean) ✅
+
+📍 Top States:
+   1. Andra Pradesh:     7 files
+   2. Maharashtra:       7 files
+   3. Himachal Pradesh:  5 files
+   4. Rajasthan:         5 files
+   5. Punjab:            3 files
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   4️⃣  SCANNED INDIC - 3 files (0.9%)                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📊 Statistics:
+   • Total size: 4.4 MB
+   • Average size: 1,516 KB per file
+   • Average pages: 7.3 pages
+
+🎯 All have no language detection (0.0) → Need OCR + language ID + translation
+
+📄 Files:
+   1. Area_production_2021_22..pdf (12 pages, Chattisgarh)
+   2. Package of Practices - Millet Kangni.pdf (8 pages, Himachal Pradesh)
+   3. Trademark.pdf (2 pages, Uttarpradesh)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                     5️⃣  ERROR FILES - 17 files (5.1%)                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📊 Statistics:
+   • Total size: 330.2 MB
+   • Average size: 19,888 KB per file (LARGE files!)
+   • All are scanned (digital_guess=False)
+
+⚠️  These files had errors during initial classification
+    → Need manual inspection to determine actual type
+
+📍 Top States:
+   1. Rajasthan:         3 files
+   2. Andra Pradesh:     2 files
+   3. Uttarpradesh:      2 files
+   4. Haryana:           2 files
+   5. Himachal Pradesh:  2 files
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              6️⃣  GARBLED/CORRUPTED - 90 files (27.1%)                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+⚠️  CRITICAL ISSUE: 27% of all unprocessed files are garbled!
+
+📊 Statistics:
+   • Total size: 20.4 MB (small files)
+   • All are classified as digital_en
+   • 98.9% have HIGH confidence (≥0.7) for language detection
+
+🌍 Geographic Distribution:
+   • Maharashtra:    81 files (90.0%) ← PRIMARY SOURCE
+   • Andra Pradesh:   8 files ( 8.9%)
+   • Rajasthan:       1 file  ( 1.1%)
+
+🔍 Root Cause: Likely encoding issues in Maharashtra PDFs
+   → These files detected language correctly but have corrupt text encoding
+
+
+================================================================================
+                         PROCESSING RECOMMENDATIONS
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        PRIORITY ORDER FOR PROCESSING                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+🟢 PHASE 4: Digital English (Medium-High Confidence) - READY NOW
+   Files:    65 files (66 medium + 0 high that aren't garbled)
+   Pipeline: Use existing Phase 1 pipeline (Docling)
+   Success:  70-80% (48-52 files)
+   Time:     1-2 hours
+   Files:    → data/metadata/unprocessed_EASY.csv
+
+🟢 PHASE 5: Digital Indic - QUICK WIN
+   Files:    3 files
+   Pipeline: Use Phase 2 pipeline (Docling + EasyOCR + BLIP + Google Translate)
+   Success:  80-90% (2-3 files)
+   Time:     15-30 minutes
+   Files:    → data/metadata/classification_digital_indic.csv
+
+🟡 PHASE 6: Scanned English - OCR NEEDED
+   Files:    42 files
+   Pipeline: Enhanced OCR (EasyOCR + Tesseract + PaddleOCR)
+   Success:  50-65% (25 files)
+   Time:     2-4 hours
+   Files:    → data/metadata/classification_scanned_en.csv
+
+🟡 PHASE 7: Digital English (Low Confidence) - RECLASSIFICATION
+   Files:    112 files
+   Pipeline: Improved classification → then process
+   Success:  30-50% (40 files)
+   Time:     3-5 hours
+   Files:    → data/metadata/classification_digital_en.csv (filter conf < 0.5)
+
+🔴 PHASE 8: Scanned Indic - HARDEST
+   Files:    3 files
+   Pipeline: OCR + Language ID + Translation
+   Success:  30-50% (1-2 files)
+   Time:     1-2 hours
+   Files:    → data/metadata/classification_scanned_indic.csv
+
+🔴 PHASE 9: Error Files - INVESTIGATION NEEDED
+   Files:    17 files
+   Pipeline: Manual inspection → determine type → process
+   Success:  20-40% (5 files)
+   Time:     Variable
+   Files:    → data/metadata/classification_error.csv
+
+⚫ PHASE 10: Garbled Files - MANUAL REVIEW
+   Files:    90 files (mostly Maharashtra)
+   Pipeline: Encoding fix or OCR fallback
+   Success:  10-30% (15 files)
+   Time:     Variable
+   Files:    → data/metadata/classification_GARBLED.csv
+
+
+================================================================================
+                              KEY INSIGHTS
+================================================================================
+
+✅ GOOD NEWS:
+   • 65 files (19.6%) are ready for immediate processing with high success rate
+   • 3 Digital Indic files are quick wins (15-30 min)
+   • 42 Scanned English files are clean (no garbled) - OCR will work well
+
+⚠️  CHALLENGES:
+   • 90 files (27.1%) are GARBLED - mostly from Maharashtra
+   • 112 files (33.7%) have low/no confidence - need better classification
+   • 17 files (5.1%) had errors - need investigation
+
+🎯 REALISTIC PROJECTIONS:
+   Current:    215/547 files processed (39.3%)
+   Phase 4-5:  +50-55 files    → 265-270/547 (48-49%)
+   Phase 6-7:  +65-92 files    → 330-362/547 (60-66%)
+   Phase 8-10: +20-40 files    → 350-402/547 (64-73%)
+
+   Expected Final: 350-400 files (64-73% completion)
+   Manual Review:  ~150 files will need human intervention
+
+
+================================================================================
+                         EXPORTED FILES FOR REVIEW
+================================================================================
+
+By Classification:
+   → data/metadata/classification_digital_en.csv (267 files)
+   → data/metadata/classification_digital_indic.csv (3 files)
+   → data/metadata/classification_scanned_en.csv (42 files)
+   → data/metadata/classification_scanned_indic.csv (3 files)
+   → data/metadata/classification_error.csv (17 files)
+   → data/metadata/classification_GARBLED.csv (90 files)
+
+By Difficulty:
+   → data/metadata/unprocessed_EASY.csv (65 files)
+   → data/metadata/unprocessed_MEDIUM.csv (157 files)
+   → data/metadata/unprocessed_HARD.csv (262 files)
+   → data/metadata/unprocessed_detailed_breakdown.csv (all 332 files)
+
