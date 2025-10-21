@@ -1,0 +1,6842 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.7.0",
+  "name": "Cotton",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 258051548148222354,
+    "filename": "Cotton.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/143"
+      },
+      {
+        "$ref": "#/texts/144"
+      },
+      {
+        "$ref": "#/texts/145"
+      },
+      {
+        "$ref": "#/texts/146"
+      },
+      {
+        "$ref": "#/texts/147"
+      },
+      {
+        "$ref": "#/texts/148"
+      },
+      {
+        "$ref": "#/texts/149"
+      },
+      {
+        "$ref": "#/texts/150"
+      },
+      {
+        "$ref": "#/texts/151"
+      },
+      {
+        "$ref": "#/texts/152"
+      },
+      {
+        "$ref": "#/texts/153"
+      },
+      {
+        "$ref": "#/texts/154"
+      },
+      {
+        "$ref": "#/texts/155"
+      },
+      {
+        "$ref": "#/texts/156"
+      },
+      {
+        "$ref": "#/texts/157"
+      },
+      {
+        "$ref": "#/texts/158"
+      },
+      {
+        "$ref": "#/texts/159"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/165"
+      },
+      {
+        "$ref": "#/groups/20"
+      },
+      {
+        "$ref": "#/texts/175"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/groups/6"
+        },
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        },
+        {
+          "$ref": "#/texts/171"
+        },
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        },
+        {
+          "$ref": "#/texts/174"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 187.05,
+            "t": 734.904,
+            "r": 428.13,
+            "b": 724.811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "COTTON PRODUCTION TECHNOLOGIES",
+      "text": "COTTON PRODUCTION TECHNOLOGIES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 701.096,
+            "r": 507.95,
+            "b": 676.954,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "Desi Cotton Varieties (G .arboreum .L) : Aravinda, Srinandi (NDLA-2463), Yaganti (NDLA-2933) and Veena (MDL-1875)",
+      "text": "Desi Cotton Varieties (G .arboreum .L) : Aravinda, Srinandi (NDLA-2463), Yaganti (NDLA-2933) and Veena (MDL-1875)"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 661.896,
+            "r": 501.35,
+            "b": 610.134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "Amerecian Cotton Varieties (G. hirsutum L.) : Kanchana (LPS 141), LK-861, L-389, L- 603,  L-604, Narasimha (NA-1325), Sivanandi  (NDLH-1755), MCU5 VT, LRA-5l66 and LRK-516.",
+      "text": "Amerecian Cotton Varieties (G. hirsutum L.) : Kanchana (LPS 141), LK-861, L-389, L- 603,  L-604, Narasimha (NA-1325), Sivanandi  (NDLH-1755), MCU5 VT, LRA-5l66 and LRK-516."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 595.266,
+            "r": 541.17,
+            "b": 543.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "Intra-specific Cotton Varieties / Hybrids : LAHH-1, LAHH-4, LAHH-5, Lam Cotton Hybrid-7, NDLHH-390, NDLHH-240 and Orugallu Krishna (WGHH-2), NHH-44, JKHy l, Savitha, H-6, H-8 and H-10.",
+      "text": "Intra-specific Cotton Varieties / Hybrids : LAHH-1, LAHH-4, LAHH-5, Lam Cotton Hybrid-7, NDLHH-390, NDLHH-240 and Orugallu Krishna (WGHH-2), NHH-44, JKHy l, Savitha, H-6, H-8 and H-10."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 528.446,
+            "r": 219.08,
+            "b": 504.314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "Egyption Cotton Varieties / Inter-specific Cotton Hybrids",
+      "text": "Egyption Cotton Varieties / Inter-specific Cotton Hybrids"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 288.1,
+            "t": 528.446,
+            "r": 452.55,
+            "b": 518.114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": ": Suvin & Jayalakshmi (DCH-32)",
+      "text": ": Suvin & Jayalakshmi (DCH-32)"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 486.836,
+            "r": 293.586,
+            "b": 475.77,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Bt. Cotton Hybrids :",
+      "text": "Bt. Cotton Hybrids :"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 288.1,
+            "t": 486.836,
+            "r": 546.78,
+            "b": 462.504,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "Officially identified private Bt cotton hybrids being cultivated and found suitable for the last 3-4 years.",
+      "text": "Officially identified private Bt cotton hybrids being cultivated and found suitable for the last 3-4 years."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 445.236,
+            "r": 99.025,
+            "b": 434.904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Soils",
+      "text": "Soils"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 288.1,
+            "t": 445.236,
+            "r": 511.15,
+            "b": 421.084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": ": Deep black Cotton and Red fertile soils with irrigated or assured rainfall conditions.",
+      "text": ": Deep black Cotton and Red fertile soils with irrigated or assured rainfall conditions."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 410.424,
+            "r": 164.244,
+            "b": 400.331,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Land Preparation",
+      "text": "Land Preparation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 385.416,
+            "r": 543.17,
+            "b": 306.064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            514
+          ]
+        }
+      ],
+      "orig": "For  rainfed  cotton,  deep  ploughing  once  in  3  years  with  mould  board  plough  or  disc harrow facilitates deep infiltration of water and charging of soil profile with large quantities of water. The land has to be ploughed 2 to 3 times and work with harrow to bring the soil to good tilth. Seeds can be dibbled by maintaining spacing in between plants after running a marker in one or two direction(s).  For irrigated crop, ridges and furrows are to be formed at recommended spacings after deep ploughing.",
+      "text": "For  rainfed  cotton,  deep  ploughing  once  in  3  years  with  mould  board  plough  or  disc harrow facilitates deep infiltration of water and charging of soil profile with large quantities of water. The land has to be ploughed 2 to 3 times and work with harrow to bring the soil to good tilth. Seeds can be dibbled by maintaining spacing in between plants after running a marker in one or two direction(s).  For irrigated crop, ridges and furrows are to be formed at recommended spacings after deep ploughing."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 290.794,
+            "r": 122.754,
+            "b": 280.701,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Seed Rate",
+      "text": "Seed Rate",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 265.798,
+            "r": 372.52,
+            "b": 255.45100000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Amerecian Cotton Varieties (G.hirsutum. L ) :",
+      "text": "Amerecian Cotton Varieties (G.hirsutum. L ) :"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 396.13,
+            "t": 265.78600000000006,
+            "r": 449.55,
+            "b": 255.45399999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "2 kg / acre",
+      "text": "2 kg / acre"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 251.99800000000005,
+            "r": 366.52,
+            "b": 241.65100000000007,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            61
+          ]
+        }
+      ],
+      "orig": "Desi Cotton Varieties (G. arboreum .L and G .herbaceum .L)  :",
+      "text": "Desi Cotton Varieties (G. arboreum .L and G .herbaceum .L)  :"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 396.13,
+            "t": 251.986,
+            "r": 459.55,
+            "b": 241.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "4-5 kg / acre",
+      "text": "4-5 kg / acre"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 238.19600000000003,
+            "r": 255.08,
+            "b": 227.86400000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Intra-/Inter-specific  Cotton Hybrids",
+      "text": "Intra-/Inter-specific  Cotton Hybrids"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 360.1,
+            "t": 238.19600000000003,
+            "r": 378.52,
+            "b": 227.86400000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 396.13,
+            "t": 238.19600000000003,
+            "r": 474.55,
+            "b": 227.86400000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "0.75-1 kg / acre",
+      "text": "0.75-1 kg / acre"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 212.966,
+            "r": 166.05,
+            "b": 202.63400000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Seed Treatment :",
+      "text": "Seed Treatment :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.025,
+            "t": 193.16599999999994,
+            "r": 543.17,
+            "b": 100.01400000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            617
+          ]
+        }
+      ],
+      "orig": "For acid delinting, seed should be treated with 80-l00 ml H2 SO4 per kg of seed for 2-3 minutes followed by lime solution and thorough washing with water 2-3 times to make the seed acid  free.    Seed  treatment  with  appropriate  insecticide(s);  imidacloprid  70  WS  @  5  g  /  kg  or thiomethoxam 70 WS @ 4 g / kg or imidacloprid 48 FS@ 9ml/kg or carbosulfan 25 DS @ 40 g/kg of seed. followed by, treatment with Pseudomonas fluorescens @ 10 g / kg or Trichoderma viride or T. harzianum @ 10 g / kg or carbendazim 50 WP @ 2 g / kg or mancozeb 75 WP @ 3 g / kg or captan 50 WP 3 g / kg or thiram 75 WP @ 3 g / kg.",
+      "text": "For acid delinting, seed should be treated with 80-l00 ml H2 SO4 per kg of seed for 2-3 minutes followed by lime solution and thorough washing with water 2-3 times to make the seed acid  free.    Seed  treatment  with  appropriate  insecticide(s);  imidacloprid  70  WS  @  5  g  /  kg  or thiomethoxam 70 WS @ 4 g / kg or imidacloprid 48 FS@ 9ml/kg or carbosulfan 25 DS @ 40 g/kg of seed. followed by, treatment with Pseudomonas fluorescens @ 10 g / kg or Trichoderma viride or T. harzianum @ 10 g / kg or carbendazim 50 WP @ 2 g / kg or mancozeb 75 WP @ 3 g / kg or captan 50 WP 3 g / kg or thiram 75 WP @ 3 g / kg."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 735.094,
+            "r": 115.585,
+            "b": 725.001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Spacing",
+      "text": "Spacing",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 721.696,
+            "r": 205.68,
+            "b": 711.364,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Desi Cotton Varieties (cm)",
+      "text": "Desi Cotton Varieties (cm)"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 721.696,
+            "r": 318.5,
+            "b": 711.364,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": ":       60 x 30",
+      "text": ":       60 x 30"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 707.896,
+            "r": 230.08,
+            "b": 697.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "American Cotton Varieties (cm)",
+      "text": "American Cotton Varieties (cm)"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 707.896,
+            "r": 373.73,
+            "b": 697.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": ":       90 x 60 or l05 x 60",
+      "text": ":       90 x 60 or l05 x 60"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 694.096,
+            "r": 207.08,
+            "b": 683.764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Conventional Hybrids (cm)",
+      "text": "Conventional Hybrids (cm)"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 694.096,
+            "r": 373.73,
+            "b": 683.764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": ":       90 x 60 or l20 x 60",
+      "text": ":       90 x 60 or l20 x 60"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 680.286,
+            "r": 192.45,
+            "b": 669.954,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Bt. Cotton Hybrids (cm)",
+      "text": "Bt. Cotton Hybrids (cm)"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 680.286,
+            "r": 486.55,
+            "b": 669.954,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": ":       90 x 45 or 90 x 60 or 120 x 45 or 120 x 60",
+      "text": ":       90 x 45 or 90 x 60 or 120 x 45 or 120 x 60"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 657.286,
+            "r": 258.48,
+            "b": 646.954,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Sowing with Cut-off dates :",
+      "text": "Sowing with Cut-off dates :"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 634.266,
+            "r": 128.45,
+            "b": 623.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Red soils",
+      "text": "Red soils"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 634.266,
+            "r": 336.5,
+            "b": 623.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": ":       June - July",
+      "text": ":       June - July"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 620.466,
+            "r": 131.05,
+            "b": 610.134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Black soils",
+      "text": "Black soils"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 252.08,
+            "t": 623.294,
+            "r": 421.13,
+            "b": 610.134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": ":       July - 1 st Fortnight of August",
+      "text": ":       July - 1 st Fortnight of August"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 597.074,
+            "r": 154.188,
+            "b": 586.981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Inter Cropping:",
+      "text": "Inter Cropping:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 574.466,
+            "r": 543.13,
+            "b": 550.334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "Inter cropping with mungbean / urdbean / soybean / cluster bean in 1:2 or 1:3 ratio, and pigeonpea 4:1 or 6:1 or 8:1 ratio.",
+      "text": "Inter cropping with mungbean / urdbean / soybean / cluster bean in 1:2 or 1:3 ratio, and pigeonpea 4:1 or 6:1 or 8:1 ratio."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 537.254,
+            "r": 206.88,
+            "b": 527.161,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Gap filling and Thinning:",
+      "text": "Gap filling and Thinning:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 514.646,
+            "r": 543.102,
+            "b": 476.714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Gap filling should be done preferably within 10 DAS. Thinning should be done within three weeks after sowing retaining two plants per hill in case of varieties, one plant per hill in case of hybrids.",
+      "text": "Gap filling should be done preferably within 10 DAS. Thinning should be done within three weeks after sowing retaining two plants per hill in case of varieties, one plant per hill in case of hybrids."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 463.644,
+            "r": 206.08,
+            "b": 453.551,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Manures and Fertilizers:",
+      "text": "Manures and Fertilizers:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 108.02,
+            "t": 441.046,
+            "r": 480.15,
+            "b": 430.714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "Apply FYM @ 4 t / acre (10 cart loads) besides the recommended fertilizers.",
+      "text": "Apply FYM @ 4 t / acre (10 cart loads) besides the recommended fertilizers."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 417.624,
+            "r": 210.08,
+            "b": 407.531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "For Desi Cotton Varieties:",
+      "text": "For Desi Cotton Varieties:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 395.016,
+            "r": 543.134,
+            "b": 370.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "8 N + 8 P2O5 kg/acre. Entire P as basal. N is in two splits at 30 DAS and 60 DAS by pocketing method.",
+      "text": "8 N + 8 P2O5 kg/acre. Entire P as basal. N is in two splits at 30 DAS and 60 DAS by pocketing method."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 357.824,
+            "r": 235.786,
+            "b": 347.731,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "For American Cotton Varieties:",
+      "text": "For American Cotton Varieties:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 333.016,
+            "r": 542.84,
+            "b": 308.864,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "36 N + 18 P2O5 + 18 K2O kg/acre.  Entire P as basal, N and K in three splits 30, 60 and 90 DAS by pocketing method.",
+      "text": "36 N + 18 P2O5 + 18 K2O kg/acre.  Entire P as basal, N and K in three splits 30, 60 and 90 DAS by pocketing method."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 295.794,
+            "r": 243.386,
+            "b": 285.701,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "For Conventinol Cotton Hybrids:",
+      "text": "For Conventinol Cotton Hybrids:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 273.196,
+            "r": 542.804,
+            "b": 249.06399999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "48 N + 24 P2O5, 24 K2O kg/acre.  Entire P as basal, N and K in three splits 30, 60, 90 DAS by pocketing method.",
+      "text": "48 N + 24 P2O5, 24 K2O kg/acre.  Entire P as basal, N and K in three splits 30, 60, 90 DAS by pocketing method."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 236.00400000000002,
+            "r": 198.45,
+            "b": 225.91100000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "For Bt Cotton Hybrids:",
+      "text": "For Bt Cotton Hybrids:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 213.36599999999999,
+            "r": 542.576,
+            "b": 175.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "25%  excess  N  over  recommended  N  should  be  applied.  The  recommended  N  and  K should be given in 3-4 splits at 20 days interval starting from 20 DAS. Foliar application of 2% urea/ 2% DAP/ 2% KNO3 at flowering and boll development stages.",
+      "text": "25%  excess  N  over  recommended  N  should  be  applied.  The  recommended  N  and  K should be given in 3-4 splits at 20 days interval starting from 20 DAS. Foliar application of 2% urea/ 2% DAP/ 2% KNO3 at flowering and boll development stages."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.025,
+            "t": 162.76599999999996,
+            "r": 543.17,
+            "b": 97.20900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            419
+          ]
+        }
+      ],
+      "orig": "For correcting magnesium, boron and zinc deficiencies, foliar application of MgSO4 @ l% twice at 45 and 75 DAS; Boron @ 0.l5% twice at 60 and 90 DAS; and ZnSO4 @ 0.2% twice at  4-5  days  interval  at  45  DAS  is  recommended.  For  correcting  iron  deficiency  due  to  heavy moisture stress in early crop growth stage, foliar application of 0.5% FeSO4 along with citric acid should be done twice at weekly interval.",
+      "text": "For correcting magnesium, boron and zinc deficiencies, foliar application of MgSO4 @ l% twice at 45 and 75 DAS; Boron @ 0.l5% twice at 60 and 90 DAS; and ZnSO4 @ 0.2% twice at  4-5  days  interval  at  45  DAS  is  recommended.  For  correcting  iron  deficiency  due  to  heavy moisture stress in early crop growth stage, foliar application of 0.5% FeSO4 along with citric acid should be done twice at weekly interval."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.025,
+            "t": 709.094,
+            "r": 178.65,
+            "b": 699.001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Weed Management:",
+      "text": "Weed Management:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.025,
+            "t": 683.696,
+            "r": 543.17,
+            "b": 590.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            646
+          ]
+        }
+      ],
+      "orig": "Spray  pendimethalin @  1.5 to 2.0 l/acre immediately or within 48 hours of sowing. Inter cultivation with tyned harrow and blade harrow 2-3 times upto 90 DAS. For control of grasses and broad leaved weeds post emergence spray of quizalofopethyl @ 400 ml/acre and pyrithiobac sodium  @  250  ml  /  acre  is  recommended  at  25-30  DAS.  Post  emergence  directed  spray  of parquat @ 5.0 ml/l of water or glyphosate 10.0 ml + 10.0 g of urea or ammonium sulphate/l of water  is  recommended  for  control  of  the  weeds  in  the  cotton  crop,  where  inter-cultivation  or manual weeding is not possible due to unfavourable weather conditions.",
+      "text": "Spray  pendimethalin @  1.5 to 2.0 l/acre immediately or within 48 hours of sowing. Inter cultivation with tyned harrow and blade harrow 2-3 times upto 90 DAS. For control of grasses and broad leaved weeds post emergence spray of quizalofopethyl @ 400 ml/acre and pyrithiobac sodium  @  250  ml  /  acre  is  recommended  at  25-30  DAS.  Post  emergence  directed  spray  of parquat @ 5.0 ml/l of water or glyphosate 10.0 ml + 10.0 g of urea or ammonium sulphate/l of water  is  recommended  for  control  of  the  weeds  in  the  cotton  crop,  where  inter-cultivation  or manual weeding is not possible due to unfavourable weather conditions."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.025,
+            "t": 567.266,
+            "r": 495.15,
+            "b": 556.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "Irrigation: Generally cotton crop requires 2-4 irrigations depending upon the soil type.",
+      "text": "Irrigation: Generally cotton crop requires 2-4 irrigations depending upon the soil type."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.025,
+            "t": 539.074,
+            "r": 218.08,
+            "b": 528.981,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "Pest Management in Cotton",
+      "text": "Pest Management in Cotton",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.025,
+            "t": 513.454,
+            "r": 283.7,
+            "b": 503.361,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Management of Sucking Pests in cotton:",
+      "text": "Management of Sucking Pests in cotton:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 494.046,
+            "r": 382.13,
+            "b": 483.714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "1. Grow sucking pest tolerant / resistant varieties / hybrids.",
+      "text": "Grow sucking pest tolerant / resistant varieties / hybrids.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 474.236,
+            "r": 543.17,
+            "b": 436.314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "2. Seed treatment with imidacloprid 70 WS 5.0 g /kg or thiamethoxam 70 WS 4.0 g / kg or imidacloprid 48 FS @ 9.0 ml/kg or carbosulfan 25 DS @ 40.0 g/kg of seed, gives early protection against sucking pests.",
+      "text": "Seed treatment with imidacloprid 70 WS 5.0 g /kg or thiamethoxam 70 WS 4.0 g / kg or imidacloprid 48 FS @ 9.0 ml/kg or carbosulfan 25 DS @ 40.0 g/kg of seed, gives early protection against sucking pests.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 426.816,
+            "r": 543.17,
+            "b": 388.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "3. Growing of intercrops like mungbean or urdbean or soybean or cluster bean  in 1:2 or 1:3 ratio  will  facilitate  the  buildup  of  native  natural  enemy  populations  that  in  turn  keep sucking pests under check",
+      "text": "Growing of intercrops like mungbean or urdbean or soybean or cluster bean  in 1:2 or 1:3 ratio  will  facilitate  the  buildup  of  native  natural  enemy  populations  that  in  turn  keep sucking pests under check",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 379.416,
+            "r": 542.902,
+            "b": 355.284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "4. Growing of cowpea as bund crop is advantageous to encourage predacious insects like coccinellids, syrphids and chrysopids",
+      "text": "Growing of cowpea as bund crop is advantageous to encourage predacious insects like coccinellids, syrphids and chrysopids",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 345.816,
+            "r": 542.78,
+            "b": 321.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "5. Maize or  sorghum  or  pearlmillet  grown  as  barrier  crops  in  the  border  prevents  spread from neighbouring fields.",
+      "text": "Maize or  sorghum  or  pearlmillet  grown  as  barrier  crops  in  the  border  prevents  spread from neighbouring fields.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 312.196,
+            "r": 543.17,
+            "b": 274.264,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            201
+          ]
+        }
+      ],
+      "orig": "6. Stem  application  at  30  &  45  DAS  with  monocrotophos  (1:4)  and  at  60  DAS  with imidacloprid  (1:20)  for  protecting  the  crop  from  early  season  sucking  pests  is  highly effective.",
+      "text": "Stem  application  at  30  &  45  DAS  with  monocrotophos  (1:4)  and  at  60  DAS  with imidacloprid  (1:20)  for  protecting  the  crop  from  early  season  sucking  pests  is  highly effective.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 264.78600000000006,
+            "r": 505.35,
+            "b": 254.45399999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "7. Setting up of yellow sticky traps @ 10 per acre for monitoring whitefly incidence.",
+      "text": "Setting up of yellow sticky traps @ 10 per acre for monitoring whitefly incidence.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.025,
+            "t": 244.986,
+            "r": 524.38,
+            "b": 234.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "8. Economic Threshold Level (ETL) for sucking pests on cotton is presented hereunder :",
+      "text": "Economic Threshold Level (ETL) for sucking pests on cotton is presented hereunder :",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 721.486,
+            "r": 301.7,
+            "b": 711.154,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "9. ETL based application of insecticides",
+      "text": "9. ETL based application of insecticides",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.025,
+            "t": 583.066,
+            "r": 183.65,
+            "b": 572.734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Whitefly",
+      "text": "Whitefly"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.025,
+            "t": 503.836,
+            "r": 183.05,
+            "b": 493.504,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Red mite",
+      "text": "Red mite"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 108.02,
+            "t": 701.896,
+            "r": 443.55,
+            "b": 592.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "Leafhoppers / aphids / thrips  -   Monocrotophos 36 SL @ 1.6 ml/l or Acephate 75 SP @1.5g/l or Imidacloprid 17.8 SL @ 0.4 ml/l or Acetamiprid 20 SP @ 0.2 g/l or Thiamethoxam 25 WG @ 0.2 g/l or Fipronil 5 SC @ 2.0 ml/l",
+      "text": "Leafhoppers / aphids / thrips  -   Monocrotophos 36 SL @ 1.6 ml/l or Acephate 75 SP @1.5g/l or Imidacloprid 17.8 SL @ 0.4 ml/l or Acetamiprid 20 SP @ 0.2 g/l or Thiamethoxam 25 WG @ 0.2 g/l or Fipronil 5 SC @ 2.0 ml/l"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 252.08,
+            "t": 583.066,
+            "r": 554.17,
+            "b": 513.314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "-   Triazophos 40 EC @ 2.0 ml/l or Profenophos 50 EC @ 2.0 ml/l or Diafenthiuron 50% WP @ 1.25 g/l or NSKE @ 5% (extract from 10.0 kg of Neem Powder/acre)",
+      "text": "  Triazophos 40 EC @ 2.0 ml/l or Profenophos 50 EC @ 2.0 ml/l or Diafenthiuron 50% WP @ 1.25 g/l or NSKE @ 5% (extract from 10.0 kg of Neem Powder/acre)",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 216.08,
+            "t": 503.836,
+            "r": 447.15,
+            "b": 473.714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "-   Wettable sulphur 80 WP @ 3.0 g/l or Dicofol 18.5 SC @ 5.0 ml/l",
+      "text": "  Wettable sulphur 80 WP @ 3.0 g/l or Dicofol 18.5 SC @ 5.0 ml/l",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.025,
+            "t": 463.644,
+            "r": 493.95,
+            "b": 453.551,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "Insecticide Resistance Management Strategies to manage cotton pests in Bt-cotton",
+      "text": "Insecticide Resistance Management Strategies to manage cotton pests in Bt-cotton"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.025,
+            "t": 438.177,
+            "r": 408.88,
+            "b": 428.925,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "Early Sucking Pest Window 1: 0-60 DAS: No foliar spray upto 60 DAS.",
+      "text": "Early Sucking Pest Window 1: 0-60 DAS: No foliar spray upto 60 DAS.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 412.816,
+            "r": 369.52,
+            "b": 402.484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": " Cultivation of sucking pest tolerant varieties / hybrids",
+      "text": " Cultivation of sucking pest tolerant varieties / hybrids",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 396.016,
+            "r": 429.52,
+            "b": 385.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": " Use dual gene, such as Bollgard II resistant (Cry I Ac + Cry 2 Ab)",
+      "text": " Use dual gene, such as Bollgard II resistant (Cry I Ac + Cry 2 Ab)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 379.416,
+            "r": 502.35,
+            "b": 369.084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": " Raising densely planted border rows of maize / sorghum / pearlmillet / pigeonpea",
+      "text": " Raising densely planted border rows of maize / sorghum / pearlmillet / pigeonpea",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 362.628,
+            "r": 573.18,
+            "b": 336.284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": " Mechanical  control  of Parthenium and Abutilon weeds  to  avoid  build  up  of  initial mealy bug inoculum.",
+      "text": " Mechanical  control  of Parthenium and Abutilon weeds  to  avoid  build  up  of  initial mealy bug inoculum.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 330.016,
+            "r": 494.95,
+            "b": 319.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": " Stem application of monocrotophos at 30 and 45, and imidachloprid at 60 DAS.",
+      "text": " Stem application of monocrotophos at 30 and 45, and imidachloprid at 60 DAS.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 313.196,
+            "r": 543.0,
+            "b": 287.064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": " Neem oil sprays @ 1.0 l/acre + detergent powder @ 1.0 g or sandovit @ 0.5 ml or Teepol 0.5 ml/lt. for the control of whitefly.",
+      "text": " Neem oil sprays @ 1.0 l/acre + detergent powder @ 1.0 g or sandovit @ 0.5 ml or Teepol 0.5 ml/lt. for the control of whitefly.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.025,
+            "t": 271.20399999999995,
+            "r": 505.15,
+            "b": 247.31100000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "Window 2: 60-90 DAS : Initial boll worm infestation. Mostly eggs and young larvae: Biological and bio-pesticide window.",
+      "text": "Window 2: 60-90 DAS : Initial boll worm infestation. Mostly eggs and young larvae: Biological and bio-pesticide window.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 229.20799999999997,
+            "r": 517.35,
+            "b": 218.861,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": " Hand picking of Helicoverpa and Spodoptera larvae, and egg masses of Spodoptera .",
+      "text": " Hand picking of Helicoverpa and Spodoptera larvae, and egg masses of Spodoptera .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 212.57799999999997,
+            "r": 540.114,
+            "b": 186.23400000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": " One spray of novaluron @1.0 ml/lt or lufenuron @1.25ml/lt for the control of Spodoptera on need basis only.",
+      "text": " One spray of novaluron @1.0 ml/lt or lufenuron @1.25ml/lt for the control of Spodoptera on need basis only.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 179.966,
+            "r": 488.95,
+            "b": 169.63400000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": " Installation of yellow sticky traps @ 10.0 / acre for monitoring of the whitefly.",
+      "text": " Installation of yellow sticky traps @ 10.0 / acre for monitoring of the whitefly.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 163.16599999999994,
+            "r": 420.73,
+            "b": 152.83400000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": " Application of 5% NSKE for bollworm and whitefly infestation.",
+      "text": " Application of 5% NSKE for bollworm and whitefly infestation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 146.36599999999999,
+            "r": 319.3,
+            "b": 136.034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": " No spray against minor lepidopteran pests.",
+      "text": " No spray against minor lepidopteran pests.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.025,
+            "t": 129.76599999999996,
+            "r": 543.17,
+            "b": 103.404,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": " Follow  Integrated  Nutrient  Management practices including foliar spray of  nutrients  to reduce leaf reddening.",
+      "text": " Follow  Integrated  Nutrient  Management practices including foliar spray of  nutrients  to reduce leaf reddening.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 734.486,
+            "r": 543.07,
+            "b": 708.154,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": " Neonicotinoids  like  imidacloprid  or  acetamiprid  or  thiomethaxam  for  the  control  of sucking pests.",
+      "text": " Neonicotinoids  like  imidacloprid  or  acetamiprid  or  thiomethaxam  for  the  control  of sucking pests.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 701.896,
+            "r": 381.13,
+            "b": 691.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": " Spinosad or emamectin benzoate only on non-Bt cotton.",
+      "text": " Spinosad or emamectin benzoate only on non-Bt cotton.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.025,
+            "t": 675.504,
+            "r": 344.5,
+            "b": 665.411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Window 3: 90-120 DAS: Peak Boll worm infestation.",
+      "text": "Window 3: 90-120 DAS: Peak Boll worm infestation.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 649.286,
+            "r": 543.07,
+            "b": 622.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": " One application of chlorpyriphos or quinalphos or thiodicarb or spinosad on conventional or Bt-cotton plants showing flared up squares.",
+      "text": " One application of chlorpyriphos or quinalphos or thiodicarb or spinosad on conventional or Bt-cotton plants showing flared up squares.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 616.666,
+            "r": 543.022,
+            "b": 590.331,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": " Poison bait (10 kg rice bran +2.0 kg jaggery + chlorpyriphos 500-700 ml or thiodicarb 250-300 g) for the control of grown up larvae of spodoptera .",
+      "text": " Poison bait (10 kg rice bran +2.0 kg jaggery + chlorpyriphos 500-700 ml or thiodicarb 250-300 g) for the control of grown up larvae of spodoptera .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.025,
+            "t": 574.474,
+            "r": 335.7,
+            "b": 564.381,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Window 4: >120 DAS : Boll worms & Mealy bugs.",
+      "text": "Window 4: >120 DAS : Boll worms & Mealy bugs.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 548.266,
+            "r": 548.58,
+            "b": 537.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": " In case of minimum infestation of mealy bug, uprooting and destroying of infested plants.",
+      "text": " In case of minimum infestation of mealy bug, uprooting and destroying of infested plants.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 531.458,
+            "r": 542.998,
+            "b": 505.114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": " Surrounding weeds especially, Parthenium are sprayed with chlorpyriphos and destroyed subsequently.",
+      "text": " Surrounding weeds especially, Parthenium are sprayed with chlorpyriphos and destroyed subsequently.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 498.836,
+            "r": 543.136,
+            "b": 472.504,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": " In severe mealy bug infestation drenching the affected stems with malathion @ 2.0 ml/l or buprofezin @ 2.0 ml/l or acephate @ 2.0 g/l along with sticky agents.",
+      "text": " In severe mealy bug infestation drenching the affected stems with malathion @ 2.0 ml/l or buprofezin @ 2.0 ml/l or acephate @ 2.0 g/l along with sticky agents.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 466.236,
+            "r": 542.71,
+            "b": 439.904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": " Insecticides  like  chlorpyriphos,  quinalphos,  profenophos,  carbaryl  are  used  in  case  of severe economic damage due to mealy bug.",
+      "text": " Insecticides  like  chlorpyriphos,  quinalphos,  profenophos,  carbaryl  are  used  in  case  of severe economic damage due to mealy bug.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 433.646,
+            "r": 543.062,
+            "b": 391.484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": " Need based use of insecticides: Spraying of persistent insecticides like thiodicarb 75 WP @ 1.5 g/l or quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 2.5 ml/l at 15 days interval.",
+      "text": " Need based use of insecticides: Spraying of persistent insecticides like thiodicarb 75 WP @ 1.5 g/l or quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 2.5 ml/l at 15 days interval.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 385.216,
+            "r": 542.916,
+            "b": 358.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": " Hand  picking  of  surviving  bollworm  larvae  from  Bt-cotton  fields  and  destruction  of residual pupae by deep ploughing immediately after harvest.",
+      "text": " Hand  picking  of  surviving  bollworm  larvae  from  Bt-cotton  fields  and  destruction  of residual pupae by deep ploughing immediately after harvest.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.025,
+            "t": 343.224,
+            "r": 279.08,
+            "b": 333.131,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Integrated Pest Management in Cotton:",
+      "text": "Integrated Pest Management in Cotton:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 315.986,
+            "r": 257.08,
+            "b": 305.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "1. Avoid monocroping of cotton.",
+      "text": "Avoid monocroping of cotton.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 296.196,
+            "r": 543.154,
+            "b": 272.0640000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "2. Application of chemical fertilizer as supplement to organic or biological fertilizers as per the recommended doses.",
+      "text": "Application of chemical fertilizer as supplement to organic or biological fertilizers as per the recommended doses.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 262.596,
+            "r": 549.09,
+            "b": 183.23400000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            483
+          ]
+        }
+      ],
+      "orig": "3. Growing  intercrops/strip crops/barrier crops with greengram, blackgram, soybean cowpea, clusterbean, groundnut, foxtail millet and coriander were found better intercrops in increasing the effectiveness of natural enemies like coccinellids, syrphids, chrysopids, spiders, Trichogrammids , Apantelids etc. Growing fodder sorghum or maize as barrier crops and castor as ovipositional trap crop with in the cotton was also found to be more advantageous to manage the pests of cotton.",
+      "text": "Growing  intercrops/strip crops/barrier crops with greengram, blackgram, soybean cowpea, clusterbean, groundnut, foxtail millet and coriander were found better intercrops in increasing the effectiveness of natural enemies like coccinellids, syrphids, chrysopids, spiders, Trichogrammids , Apantelids etc. Growing fodder sorghum or maize as barrier crops and castor as ovipositional trap crop with in the cotton was also found to be more advantageous to manage the pests of cotton.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 173.76599999999996,
+            "r": 413.33,
+            "b": 163.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "4. Seed treatment with recommended insecticides and fungicides.",
+      "text": "Seed treatment with recommended insecticides and fungicides.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 153.966,
+            "r": 490.35,
+            "b": 143.63400000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "5. Stem application of Monocrotophos at 30 and 45, and imidacloprid at 60 DAS.",
+      "text": "Stem application of Monocrotophos at 30 and 45, and imidacloprid at 60 DAS.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 90.025,
+            "t": 134.16599999999994,
+            "r": 543.11,
+            "b": 96.20900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "6. Monitoring  pests  by  using  light,  sticky  and  pheromone  traps.  The  adults  monitoring should  be  supported  by  egg  and  larval  monitoring  following  sequential  sampling technique at frequent intervals in case of boll worms.",
+      "text": "Monitoring  pests  by  using  light,  sticky  and  pheromone  traps.  The  adults  monitoring should  be  supported  by  egg  and  larval  monitoring  following  sequential  sampling technique at frequent intervals in case of boll worms.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 715.696,
+            "r": 542.892,
+            "b": 691.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "7. Bird  perches  should  be  arranged  @  10  per  acre  for  encouraging  bird  predation  on bollworm larvae.",
+      "text": "Bird  perches  should  be  arranged  @  10  per  acre  for  encouraging  bird  predation  on bollworm larvae.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 682.108,
+            "r": 543.034,
+            "b": 630.334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            303
+          ]
+        }
+      ],
+      "orig": "8. The buildup of broad spectrum predators viz. , spiders, coccinellids and chrysopids should be synchronised in other cultural operations. Release of Trichogramma egg  parasite  @ 50,000/ha and Chrysopa egg larval predator @ l0000/ha, should be done as soon as the first brood of bollworms are noticed.",
+      "text": "The buildup of broad spectrum predators viz. , spiders, coccinellids and chrysopids should be synchronised in other cultural operations. Release of Trichogramma egg  parasite  @ 50,000/ha and Chrysopa egg larval predator @ l0000/ha, should be done as soon as the first brood of bollworms are noticed.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 620.878,
+            "r": 549.15,
+            "b": 596.734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "9. Topping  of  cotton  plants  when  maximum  egg  laying  of Helicoverpa  armigera is noticed (October-November months).",
+      "text": "Topping  of  cotton  plants  when  maximum  egg  laying  of Helicoverpa  armigera is noticed (October-November months).",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 587.266,
+            "r": 551.864,
+            "b": 563.131,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "10. Application of HNPV @ 500 LE/ha or neem seed kernel extract (5%) in synchrony with early larvae of Helicoverpa . Neem oil formulation to manage initial whitefly.",
+      "text": "Application of HNPV @ 500 LE/ha or neem seed kernel extract (5%) in synchrony with early larvae of Helicoverpa . Neem oil formulation to manage initial whitefly.",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 553.666,
+            "r": 211.08,
+            "b": 543.334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "11. ETLs for Bollworms",
+      "text": "11. ETLs for Bollworms",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 347.816,
+            "r": 540.166,
+            "b": 323.681,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            161
+          ]
+        }
+      ],
+      "orig": "12. Poison bait (10.0 kg of rice bran + 2.0 kg jaggery + 500-750 ml of chlorpyriphos or 250300 g of thiodicarb) for the control of grownup larvae of Spodoptera .",
+      "text": "Poison bait (10.0 kg of rice bran + 2.0 kg jaggery + 500-750 ml of chlorpyriphos or 250300 g of thiodicarb) for the control of grownup larvae of Spodoptera .",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 306.396,
+            "r": 546.17,
+            "b": 130.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1124
+          ]
+        }
+      ],
+      "orig": "13. Resorting  to  chemical  insecticides  for  the  control  of  leafhoppers  spray  monocrotophos 36  SL  @  1.6  ml/l  or  acephate  75  SP  @  1.5  g/l  or  fipronil  5%  SC  @  2.0  ml/l  or imidacloprid 17.8 SL @ 0.4 ml/l or acetamiprid 20 SP @ 0.2 g/l or thiamethoxam 25 WG @  0.2  g/l  or  flonicamid  50  WG  @  0.3  g/l.  For  the  management  of  whitefly  spray triazophos 40 EC @ 2.0 ml/l or  profenophos 50 EC @ 2.0 ml/l or diafenthiuron 50 WP @ 1.25 g/l or neem seed kernel extract @ 5% or neem oil @ 5.0 ml/l; for the control of Helicoverpa armigera spray quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 3.0 ml/l or acephate 75 SP @ 1.5 g/l or indoxacarb 14.5 SC @ 1.0 ml/l or thiodicarb 75 WP @  1.5  g/l  or  spinosad  45  SC  @  0.3  ml/l  or  flubendiamide  48  SC  @  0.3  ml/l  or chlorantraniliprole  18.5  SC  @  0.3  ml/l.  For  managing  red  spider  mites,  application  of wettable sulphur 80 WP @ 3.0 g/l or dicofol 18.5 SC @ 5.0 ml/l. Similarly if mealy bugs spread in patches to alarming level spray acephate 75 SP @ 2.0 g/l or profenophos 50 EC @ 3.0 ml/l mixing with sandovit or teepol.",
+      "text": "Resorting  to  chemical  insecticides  for  the  control  of  leafhoppers  spray  monocrotophos 36  SL  @  1.6  ml/l  or  acephate  75  SP  @  1.5  g/l  or  fipronil  5%  SC  @  2.0  ml/l  or imidacloprid 17.8 SL @ 0.4 ml/l or acetamiprid 20 SP @ 0.2 g/l or thiamethoxam 25 WG @  0.2  g/l  or  flonicamid  50  WG  @  0.3  g/l.  For  the  management  of  whitefly  spray triazophos 40 EC @ 2.0 ml/l or  profenophos 50 EC @ 2.0 ml/l or diafenthiuron 50 WP @ 1.25 g/l or neem seed kernel extract @ 5% or neem oil @ 5.0 ml/l; for the control of Helicoverpa armigera spray quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 3.0 ml/l or acephate 75 SP @ 1.5 g/l or indoxacarb 14.5 SC @ 1.0 ml/l or thiodicarb 75 WP @  1.5  g/l  or  spinosad  45  SC  @  0.3  ml/l  or  flubendiamide  48  SC  @  0.3  ml/l  or chlorantraniliprole  18.5  SC  @  0.3  ml/l.  For  managing  red  spider  mites,  application  of wettable sulphur 80 WP @ 3.0 g/l or dicofol 18.5 SC @ 5.0 ml/l. Similarly if mealy bugs spread in patches to alarming level spray acephate 75 SP @ 2.0 g/l or profenophos 50 EC @ 3.0 ml/l mixing with sandovit or teepol.",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.025,
+            "t": 113.14599999999996,
+            "r": 543.122,
+            "b": 75.20900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "14. Removal  of  cotton  stubbles  after  last  picking  without  opting  for  ratoon  crop  or prolonging the crop growth with irrigations and fertilizer applications. This is essential to break the cycles of problem pests in the system as a whole",
+      "text": "Removal  of  cotton  stubbles  after  last  picking  without  opting  for  ratoon  crop  or prolonging the crop growth with irrigations and fertilizer applications. This is essential to break the cycles of problem pests in the system as a whole",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 715.294,
+            "r": 267.67,
+            "b": 705.201,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Mealy bug management in Cotton",
+      "text": "Mealy bug management in Cotton",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 694.896,
+            "r": 205.68,
+            "b": 684.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": " Adopt crop rotation",
+      "text": " Adopt crop rotation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 680.298,
+            "r": 543.078,
+            "b": 656.154,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": " Removal  and  burning  of  alternate  weed  hosts    like Parthenium , Abutilon etc.in  the vicinity of cotton crop",
+      "text": " Removal  and  burning  of  alternate  weed  hosts    like Parthenium , Abutilon etc.in  the vicinity of cotton crop",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 651.696,
+            "r": 505.95,
+            "b": 641.364,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": " Control mealy bug population on the alternate crop hosts during on and off season",
+      "text": " Control mealy bug population on the alternate crop hosts during on and off season",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 637.066,
+            "r": 543.168,
+            "b": 599.334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": " Stem application of monocrotophos diluted with water in 1:4 ratio during vegetative and early  reproductive  stage  of  the  cotton  crop  at  30,  45  and  60  DAS  as  a  prophylactic measure.",
+      "text": " Stem application of monocrotophos diluted with water in 1:4 ratio during vegetative and early  reproductive  stage  of  the  cotton  crop  at  30,  45  and  60  DAS  as  a  prophylactic measure.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 594.866,
+            "r": 543.098,
+            "b": 570.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": " Monitoring the initial infestation of mealy bug, particularly on border plants and shaded areas for timing of control measures.",
+      "text": " Monitoring the initial infestation of mealy bug, particularly on border plants and shaded areas for timing of control measures.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 566.466,
+            "r": 543.166,
+            "b": 528.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": " Need based spraying of insecticides, triazophos 40 EC @ 3.0 ml/l or prophenophos 50 EC @ 3.0 ml/l or acephate 75 WP 2.0 g/l mixed with stickers like triton or sandovit or teapot etc @ 1ml/l of spray fluid",
+      "text": " Need based spraying of insecticides, triazophos 40 EC @ 3.0 ml/l or prophenophos 50 EC @ 3.0 ml/l or acephate 75 WP 2.0 g/l mixed with stickers like triton or sandovit or teapot etc @ 1ml/l of spray fluid",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 524.036,
+            "r": 542.33,
+            "b": 500.114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": " Spot application of insecticides is desirable when the infestation is confined to isolated pockets in the field.",
+      "text": " Spot application of insecticides is desirable when the infestation is confined to isolated pockets in the field.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 495.646,
+            "r": 542.492,
+            "b": 471.714,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": " Removal and destruction by burning of heavily infested dried / dead cotton plants may be taken up to arrest further spread of the pest incidence.",
+      "text": " Removal and destruction by burning of heavily infested dried / dead cotton plants may be taken up to arrest further spread of the pest incidence.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 467.236,
+            "r": 427.52,
+            "b": 456.904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": " Removal and burning of left over cotton stubbles after harvesting.",
+      "text": " Removal and burning of left over cotton stubbles after harvesting.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.025,
+            "t": 439.254,
+            "r": 291.613,
+            "b": 429.161,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Management strategies for pink bollworm:",
+      "text": "Management strategies for pink bollworm:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 419.816,
+            "r": 542.42,
+            "b": 395.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "1. Grow early maturing varieties so that the cotton bolls mature before the heavy population of pink bollworm builds up.",
+      "text": "Grow early maturing varieties so that the cotton bolls mature before the heavy population of pink bollworm builds up.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 386.216,
+            "r": 414.73,
+            "b": 375.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "2. Avoid staggered sowing in an area and take up timely sowings.",
+      "text": "Avoid staggered sowing in an area and take up timely sowings.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 366.416,
+            "r": 234.68,
+            "b": 356.084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "3. Use of acid delinted seed.",
+      "text": "Use of acid delinted seed.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 346.616,
+            "r": 542.516,
+            "b": 322.484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "4. Adopting efficient and timely agronomic practices such as use of organic manures and recommended doses of 'N' fertilizers only.",
+      "text": "Adopting efficient and timely agronomic practices such as use of organic manures and recommended doses of 'N' fertilizers only.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 312.986,
+            "r": 262.27,
+            "b": 302.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "5. Keep the crop free from weeds.",
+      "text": "Keep the crop free from weeds.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 293.196,
+            "r": 486.95,
+            "b": 282.864,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "6. Regular monitoring for pest build up with field scouting and pheromone traps.",
+      "text": "Regular monitoring for pest build up with field scouting and pheromone traps.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 273.39599999999996,
+            "r": 543.086,
+            "b": 235.45399999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "7. Destroy pink bollworm larvae in rosette flowers and also through periodical removal of dropped squares, dried flowers and pre-matured bolls, to suppress pest population in the initial stage.",
+      "text": "Destroy pink bollworm larvae in rosette flowers and also through periodical removal of dropped squares, dried flowers and pre-matured bolls, to suppress pest population in the initial stage.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 225.986,
+            "r": 288.1,
+            "b": 215.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "8. Avoid ratooning and summer cotton.",
+      "text": "Avoid ratooning and summer cotton.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 206.16599999999994,
+            "r": 542.408,
+            "b": 182.034,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "9. Allow cattle, sheep and goats to graze upon immature green bolls and attacked bolls after final picking to prevent carry-over of the pest to the next season.",
+      "text": "Allow cattle, sheep and goats to graze upon immature green bolls and attacked bolls after final picking to prevent carry-over of the pest to the next season.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 172.56600000000003,
+            "r": 543.098,
+            "b": 148.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "10. Prompt removal and destruction of cotton stubbles to prevent carryover of pest to next season.",
+      "text": "Prompt removal and destruction of cotton stubbles to prevent carryover of pest to next season.",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 138.966,
+            "r": 401.73,
+            "b": 128.63400000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "11. Restrict the movement of cotton seed from other areas/states",
+      "text": "Restrict the movement of cotton seed from other areas/states",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.025,
+            "t": 119.16599999999994,
+            "r": 543.17,
+            "b": 81.20900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "12. Need based use of insecticides: Spraying of persistent insecticides like thiodicarb 75 WP @ 1.5 g/l or quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 2.5 ml/l at 15 days interval.",
+      "text": "Need based use of insecticides: Spraying of persistent insecticides like thiodicarb 75 WP @ 1.5 g/l or quinalphos 25 EC @ 2.5 ml/l or chlorpyriphos 20 EC @ 2.5 ml/l at 15 days interval.",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 695.504,
+            "r": 243.48,
+            "b": 685.411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Management of Cotton Diseases:",
+      "text": "Management of Cotton Diseases:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 675.896,
+            "r": 542.578,
+            "b": 633.764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "Bacterial  blight: Angular  leaf  spots  develop  and  spread  through  veins  causing  vein  blight. Under  severe  conditions  disease  spreads  to  branches  causing  black  arm.  Dark  green  spots develop on bolls which turn black and bolls rot.",
+      "text": "Bacterial  blight: Angular  leaf  spots  develop  and  spread  through  veins  causing  vein  blight. Under  severe  conditions  disease  spreads  to  branches  causing  black  arm.  Dark  green  spots develop on bolls which turn black and bolls rot."
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 628.278,
+            "r": 543.074,
+            "b": 586.134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "Control:  Seed  treatment  with Pseudomonas fluorescens @  10.0g/kg  seed;  spraying  copper  oxy chloride  3.0  g/l  +  streptocycline  100  mg/l  starting  from  50  days  after  sowing,  2-3  times,  at fortnightly intervals.",
+      "text": "Control:  Seed  treatment  with Pseudomonas fluorescens @  10.0g/kg  seed;  spraying  copper  oxy chloride  3.0  g/l  +  streptocycline  100  mg/l  starting  from  50  days  after  sowing,  2-3  times,  at fortnightly intervals."
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 580.666,
+            "r": 542.628,
+            "b": 554.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Alternaria leaf spot: Brown spots with concentric rings develop on leaves, join together and dry; defoliation occurs. Lesions on stem extend and break.",
+      "text": "Alternaria leaf spot: Brown spots with concentric rings develop on leaves, join together and dry; defoliation occurs. Lesions on stem extend and break."
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 548.866,
+            "r": 479.35,
+            "b": 538.534,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "Helminthosporium leaf spot: Light brown spots with ashy centres and red margins",
+      "text": "Helminthosporium leaf spot: Light brown spots with ashy centres and red margins"
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 533.036,
+            "r": 542.856,
+            "b": 506.904,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "Cercospora leaf spot : Dark brown circular spots with white centres and purple margins develop on leaves.",
+      "text": "Cercospora leaf spot : Dark brown circular spots with white centres and purple margins develop on leaves."
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 501.248,
+            "r": 543.114,
+            "b": 443.314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            337
+          ]
+        }
+      ],
+      "orig": "Control: For the control of leaf spots seed treatment with P. fluorescens @ 10.0 g or carbendazim 2.0g  or  thiram  3.0g  or  vitavax  2.0  g/kg  of  seed;  spraying  copper  oxy  chloride  3.0  g/l  or mancozeb 3.0 g/l or propiconazole 1.0 ml/l or captan + hexaconazole 1.0 g/l starting from 50 DAS, 2-3 times, at fortnightly intervals.",
+      "text": "Control: For the control of leaf spots seed treatment with P. fluorescens @ 10.0 g or carbendazim 2.0g  or  thiram  3.0g  or  vitavax  2.0  g/kg  of  seed;  spraying  copper  oxy  chloride  3.0  g/l  or mancozeb 3.0 g/l or propiconazole 1.0 ml/l or captan + hexaconazole 1.0 g/l starting from 50 DAS, 2-3 times, at fortnightly intervals."
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 437.836,
+            "r": 543.118,
+            "b": 395.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "Grey mildew: Angular, white, powdery spots develop on leaves, spread and defoliation occurs. Control: Spraying water soluble sulphur 3.0 g/l or carbendazim 1.0 g/l, 2-3 times, at 10-15 days interval.",
+      "text": "Grey mildew: Angular, white, powdery spots develop on leaves, spread and defoliation occurs. Control: Spraying water soluble sulphur 3.0 g/l or carbendazim 1.0 g/l, 2-3 times, at 10-15 days interval."
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 390.216,
+            "r": 492.75,
+            "b": 379.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "Rust: Yellowish brown to reddish brown pustules develop on both sides of the leaves.",
+      "text": "Rust: Yellowish brown to reddish brown pustules develop on both sides of the leaves."
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 374.216,
+            "r": 543.122,
+            "b": 348.084,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "Control: Spraying water soluble sulphur 3.0 g/l or tridemorph 1.0 ml/l or propiconazole 1.0 ml/l, starting from 75 DAS, 2-3 times, at fortnightly intervals.",
+      "text": "Control: Spraying water soluble sulphur 3.0 g/l or tridemorph 1.0 ml/l or propiconazole 1.0 ml/l, starting from 75 DAS, 2-3 times, at fortnightly intervals."
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 342.616,
+            "r": 318.5,
+            "b": 332.284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "Boll Rots: Dark spots or lesions develop on bolls.",
+      "text": "Boll Rots: Dark spots or lesions develop on bolls."
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 326.586,
+            "r": 543.158,
+            "b": 300.464,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "Control: Spray copper oxy chloride 3.0 g/l + streptocycline 100 mg/l or carbendazim 1.0 g/l or dithane M-45 2.5 g/l.",
+      "text": "Control: Spray copper oxy chloride 3.0 g/l + streptocycline 100 mg/l or carbendazim 1.0 g/l or dithane M-45 2.5 g/l."
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 294.986,
+            "r": 542.796,
+            "b": 268.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "Root  rot: Sudden  death  of  young  plants  in  patches,  roots  become  sticky  and  bark  shreds  in grown up plants.",
+      "text": "Root  rot: Sudden  death  of  young  plants  in  patches,  roots  become  sticky  and  bark  shreds  in grown up plants."
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 263.196,
+            "r": 542.45,
+            "b": 237.06399999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "Fusarium  wilt: Damping  off  symptoms  at  seedling  stage,  lower  leaves  wilt  early  and  drop. Brown streaks are visible in split open branches or stems, sometimes with black spores.",
+      "text": "Fusarium  wilt: Damping  off  symptoms  at  seedling  stage,  lower  leaves  wilt  early  and  drop. Brown streaks are visible in split open branches or stems, sometimes with black spores."
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 231.39599999999996,
+            "r": 542.59,
+            "b": 189.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "Verticillium wilt: Interveinal chorosis and dark lesions develop on leaves with appearance of tiger  stripes,  brown  discolouration  is  visible  in  split  open  stems,  branches  and  also  inside  the bark, plants die in the centre of infected patch.",
+      "text": "Verticillium wilt: Interveinal chorosis and dark lesions develop on leaves with appearance of tiger  stripes,  brown  discolouration  is  visible  in  split  open  stems,  branches  and  also  inside  the bark, plants die in the centre of infected patch."
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.025,
+            "t": 183.77800000000002,
+            "r": 564.17,
+            "b": 94.20900000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            504
+          ]
+        }
+      ],
+      "orig": "Control:  Seed  treatment  with Trichoderma  viride @  10.0  g  or P.  fluorescens @  10.0  g  or carbendazim 2.0 g or thiram 3.0 g or vitavax 2.0 g/kg of seed; soil application of T.  viride or P. fluorescens @ 1.0 kg/acre developed in 100.0 kg FYM or vermicompost along with 20.0 kg of neem  cake.    Balanced  Nitrogen  application  and  correcting  micronutrient  deficiencies.  Soil drenching at the base of infected plants with copper oxy chloride 3.0 g/l or carbendazim 1.0 g/l or benomyl 1.0 g/l.",
+      "text": "Control:  Seed  treatment  with Trichoderma  viride @  10.0  g  or P.  fluorescens @  10.0  g  or carbendazim 2.0 g or thiram 3.0 g or vitavax 2.0 g/kg of seed; soil application of T.  viride or P. fluorescens @ 1.0 kg/acre developed in 100.0 kg FYM or vermicompost along with 20.0 kg of neem  cake.    Balanced  Nitrogen  application  and  correcting  micronutrient  deficiencies.  Soil drenching at the base of infected plants with copper oxy chloride 3.0 g/l or carbendazim 1.0 g/l or benomyl 1.0 g/l."
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 72.025,
+            "t": 695.504,
+            "r": 138.65,
+            "b": 685.411,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Harvesting :",
+      "text": "Harvesting :",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 675.896,
+            "r": 508.95,
+            "b": 665.564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "1. Kapas from fully opened bolls should be collected during cooler times of the day.",
+      "text": "Kapas from fully opened bolls should be collected during cooler times of the day.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 660.096,
+            "r": 472.55,
+            "b": 649.764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "2. Kapas picked should be free from debris like dried leaves, dried bracts etc.",
+      "text": "Kapas picked should be free from debris like dried leaves, dried bracts etc.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 644.096,
+            "r": 542.48,
+            "b": 617.934,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "3. Kapas from the first and last pickings should not be mixed with middle pickings, which are of better quality.",
+      "text": "Kapas from the first and last pickings should not be mixed with middle pickings, which are of better quality.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 612.466,
+            "r": 401.73,
+            "b": 602.134,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "4. Kapas damaged by bollworms should be picked separately.",
+      "text": "Kapas damaged by bollworms should be picked separately.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 596.466,
+            "r": 542.384,
+            "b": 570.334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "5. The cleaned kapas is to be graded and stored in heaps or in gunny boras in dry and well ventilated godowns.",
+      "text": "The cleaned kapas is to be graded and stored in heaps or in gunny boras in dry and well ventilated godowns.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 72.025,
+            "t": 548.474,
+            "r": 205.48,
+            "b": 538.381,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Post-harvest Technology:",
+      "text": "Post-harvest Technology:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 517.236,
+            "r": 543.066,
+            "b": 475.114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            222
+          ]
+        }
+      ],
+      "orig": "1. It  is  essential  that  proper  care  is  taken  at  various  stages  of  handling  and  processing  to ensure  that  the  inherent  quality  of  cotton  is  not  adversely  affected  so  as  to  realize maximum price.",
+      "text": "It  is  essential  that  proper  care  is  taken  at  various  stages  of  handling  and  processing  to ensure  that  the  inherent  quality  of  cotton  is  not  adversely  affected  so  as  to  realize maximum price.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 469.646,
+            "r": 386.92,
+            "b": 459.314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "2. Watering the kapas before weighment should be avoided.",
+      "text": "Watering the kapas before weighment should be avoided.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 453.646,
+            "r": 543.18,
+            "b": 427.504,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "3. Admixtures of different varieties should be avoided. The admixture of  the inferior type lowers the quality of the superior type, due to differences in the fiber quality traits.",
+      "text": "Admixtures of different varieties should be avoided. The admixture of  the inferior type lowers the quality of the superior type, due to differences in the fiber quality traits.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 422.016,
+            "r": 542.914,
+            "b": 395.684,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "4. Only  one  variety  of  cotton  should  be  heaped  and  packed  to  maintain  the  purity  and quality of the cotton.",
+      "text": "Only  one  variety  of  cotton  should  be  heaped  and  packed  to  maintain  the  purity  and quality of the cotton.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 390.216,
+            "r": 542.986,
+            "b": 363.884,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            128
+          ]
+        }
+      ],
+      "orig": "5. For  supply  of  high  quality  of  cotton,  proper  packing  should  be  done  to  protect  from contamination and dampness.",
+      "text": "For  supply  of  high  quality  of  cotton,  proper  packing  should  be  done  to  protect  from contamination and dampness.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 358.416,
+            "r": 542.324,
+            "b": 332.284,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "6. Improper  drying  due  to  lack  of  proper  yard  at  village  will  generally  result  in  to  the discoloration of the fibres.",
+      "text": "Improper  drying  due  to  lack  of  proper  yard  at  village  will  generally  result  in  to  the discoloration of the fibres.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 326.586,
+            "r": 542.506,
+            "b": 284.654,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "7. Even  at  the  market  level,  the  conventional  packing  of  kapas  in  bales  gives  rise  to problems such as requirement of large space and possible fire hazards. Storing in open yards at the market should be avoided.",
+      "text": "Even  at  the  market  level,  the  conventional  packing  of  kapas  in  bales  gives  rise  to problems such as requirement of large space and possible fire hazards. Storing in open yards at the market should be avoided.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 278.986,
+            "r": 542.92,
+            "b": 221.06399999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            308
+          ]
+        }
+      ],
+      "orig": "8. The seeds from insect attacked and immature bolls being more fragile get crushed during ginning resulting in staining of lint by the oil oozing out of the cut-seeds. This oil acts as a medium for growth of the micro-organisms which will destroy the lint. So, the insect infested kapas should be separated.",
+      "text": "The seeds from insect attacked and immature bolls being more fragile get crushed during ginning resulting in staining of lint by the oil oozing out of the cut-seeds. This oil acts as a medium for growth of the micro-organisms which will destroy the lint. So, the insect infested kapas should be separated.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 90.025,
+            "t": 215.56600000000003,
+            "r": 543.106,
+            "b": 189.43399999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "9. Difficulties in handling of kapas due to its bulky nature - adequate storage space is to be provided both at the farmer's level as well as at the market.",
+      "text": "Difficulties in handling of kapas due to its bulky nature - adequate storage space is to be provided both at the farmer's level as well as at the market.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 9,
+          "bbox": {
+            "l": 534.58,
+            "t": 42.47500000000002,
+            "r": 542.656,
+            "b": 31.475000000000023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 107.10108184814453,
+            "t": 220.7864990234375,
+            "r": 508.5084228515625,
+            "b": 80.232177734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 116.82,
+              "t": 575.4259999999999,
+              "r": 202.956,
+              "b": 585.519,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Name of the Pest",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 348.1,
+              "t": 575.4259999999999,
+              "r": 372.104,
+              "b": 585.519,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "ETL",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 593.034,
+              "r": 146.918,
+              "b": 603.366,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Jassids",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 593.034,
+              "r": 502.616,
+              "b": 617.1659999999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Two adults or nymphs per leaf or appearance of second grade injury (yellowing in the margins of the leaves)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 624.634,
+              "r": 144.882,
+              "b": 634.966,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Thrips",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 624.634,
+              "r": 300.792,
+              "b": 634.966,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "10 adults per leaf",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 642.434,
+              "r": 147.882,
+              "b": 652.766,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Aphids",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 642.434,
+              "r": 313.08,
+              "b": 652.766,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "15% affected plants",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 660.234,
+              "r": 163.614,
+              "b": 670.566,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Whiteflies",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 660.234,
+              "r": 304.784,
+              "b": 670.566,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "6-8 adults per leaf",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 678.064,
+              "r": 169.65,
+              "b": 688.396,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Mealy bugs",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 678.064,
+              "r": 307.08,
+              "b": 688.396,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "5% affected plants",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 696.059,
+              "r": 140.85,
+              "b": 706.391,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Mites",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 217.68,
+              "t": 693.231,
+              "r": 272.48,
+              "b": 706.391,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "10 per cm -1",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 7,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 116.82,
+                "t": 575.4259999999999,
+                "r": 202.956,
+                "b": 585.519,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Name of the Pest",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 348.1,
+                "t": 575.4259999999999,
+                "r": 372.104,
+                "b": 585.519,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "ETL",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 593.034,
+                "r": 146.918,
+                "b": 603.366,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Jassids",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 593.034,
+                "r": 502.616,
+                "b": 617.1659999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Two adults or nymphs per leaf or appearance of second grade injury (yellowing in the margins of the leaves)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 624.634,
+                "r": 144.882,
+                "b": 634.966,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Thrips",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 624.634,
+                "r": 300.792,
+                "b": 634.966,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "10 adults per leaf",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 642.434,
+                "r": 147.882,
+                "b": 652.766,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Aphids",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 642.434,
+                "r": 313.08,
+                "b": 652.766,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "15% affected plants",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 660.234,
+                "r": 163.614,
+                "b": 670.566,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Whiteflies",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 660.234,
+                "r": 304.784,
+                "b": 670.566,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "6-8 adults per leaf",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 678.064,
+                "r": 169.65,
+                "b": 688.396,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Mealy bugs",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 678.064,
+                "r": 307.08,
+                "b": 688.396,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5% affected plants",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 696.059,
+                "r": 140.85,
+                "b": 706.391,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Mites",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 217.68,
+                "t": 693.231,
+                "r": 272.48,
+                "b": 706.391,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "10 per cm -1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.30065155029297,
+            "t": 529.5743713378906,
+            "r": 518.68017578125,
+            "b": 364.0274353027344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 161.45,
+              "t": 266.746,
+              "r": 247.586,
+              "b": 276.83900000000006,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Name of the Pest",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 397.52,
+              "t": 266.746,
+              "r": 421.524,
+              "b": 276.83900000000006,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "ETL",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 286.752,
+              "r": 296.296,
+              "b": 310.889,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "American bollworm ( H. armigera ) and Spotted Boll worm ( E. vitella )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 306.9,
+              "t": 286.764,
+              "r": 511.944,
+              "b": 338.496,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Five per cent damaged fruiting bodies or one larva per plant or total three damaged square per plant taken from 20 plants selected at random for counting.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 348.342,
+              "r": 263.666,
+              "b": 358.689,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Pink bollworm ( P. gossypiella )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 306.9,
+              "t": 348.354,
+              "r": 511.896,
+              "b": 386.316,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Eight moths per trap per day for three consecutive days or 10 % infested flowers or bolls with live larvae.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 113.43,
+              "t": 396.372,
+              "r": 256.266,
+              "b": 406.719,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Tobacco caterpillar ( S. litura )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 306.9,
+              "t": 396.384,
+              "r": 511.824,
+              "b": 420.516,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "One egg mass or skeletinized leaf ten plants",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 4,
+        "num_cols": 2,
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 161.45,
+                "t": 266.746,
+                "r": 247.586,
+                "b": 276.83900000000006,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Name of the Pest",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 397.52,
+                "t": 266.746,
+                "r": 421.524,
+                "b": 276.83900000000006,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "ETL",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 286.752,
+                "r": 296.296,
+                "b": 310.889,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "American bollworm ( H. armigera ) and Spotted Boll worm ( E. vitella )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 306.9,
+                "t": 286.764,
+                "r": 511.944,
+                "b": 338.496,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Five per cent damaged fruiting bodies or one larva per plant or total three damaged square per plant taken from 20 plants selected at random for counting.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 348.342,
+                "r": 263.666,
+                "b": 358.689,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Pink bollworm ( P. gossypiella )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 306.9,
+                "t": 348.354,
+                "r": 511.896,
+                "b": 386.316,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Eight moths per trap per day for three consecutive days or 10 % infested flowers or bolls with live larvae.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 113.43,
+                "t": 396.372,
+                "r": 256.266,
+                "b": 406.719,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Tobacco caterpillar ( S. litura )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 306.9,
+                "t": 396.384,
+                "r": 511.824,
+                "b": 420.516,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "One egg mass or skeletinized leaf ten plants",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 8
+    },
+    "9": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 9
+    }
+  }
+}

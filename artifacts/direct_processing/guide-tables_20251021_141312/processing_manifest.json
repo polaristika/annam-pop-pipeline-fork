@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-21T14:15:44.760504",
+  "input_pdf": "/home/aic_u1/aic_u1/pop_scraping/Sample PDFs/guide-tables.pdf",
+  "pdf_name": "guide-tables.pdf",
+  "classification": {
+    "forced": true,
+    "phase": 1
+  },
+  "processing": {
+    "status": "success",
+    "phase": 1,
+    "json_path": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/guide-tables_20251021_141312/guide-tables_output.json",
+    "md_path": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/guide-tables_20251021_141312/guide-tables_document.md",
+    "output_dir": "artifacts/direct_processing/guide-tables_20251021_141312"
+  },
+  "outputs": {
+    "json": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/guide-tables_20251021_141312/guide-tables_output.json",
+    "markdown": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/guide-tables_20251021_141312/guide-tables_document.md",
+    "directory": "artifacts/direct_processing/guide-tables_20251021_141312"
+  }
+}
