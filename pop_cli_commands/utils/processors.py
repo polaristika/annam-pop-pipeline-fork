@@ -147,3 +147,51 @@ def process_with_phase2(pdf_path: str, output_dir: str) -> Dict:
 
 
 __all__ = ['process_with_docling', 'process_with_phase2']
+
+
+def process_with_phase6(pdf_path: str, output_dir: str, state: str = None) -> Dict:
+    """
+    Process PDF using Phase 6 pipeline (garbled text restoration).
+
+    Falls back to Phase 2 pipeline if Phase 6 is not available.
+    """
+    try:
+        # Try to import the Phase 6 pipeline
+        from pipeline.phase6_improved_v2_json import ImprovedPhase6PipelineV2
+        from pathlib import Path
+
+        out_dir = Path(output_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        pipeline = ImprovedPhase6PipelineV2()
+        # Some pipeline implementations expect Path objects
+        res = pipeline.process_pdf(pdf_path=str(pdf_path), state=state, output_dir=str(out_dir))
+
+        # Expect res to include 'status' and possibly paths
+        if res.get('status') == 'success':
+            # Look for expected outputs
+            json_path = res.get('json_path') or str(out_dir / (Path(pdf_path).stem + '_output.json'))
+            md_path = res.get('md_path') or str(out_dir / (Path(pdf_path).stem + '_document.md'))
+            return {
+                'status': 'success',
+                'json_path': json_path,
+                'md_path': md_path
+            }
+        else:
+            return {
+                'status': 'failed',
+                'error': res.get('error', 'Phase 6 pipeline failed')
+            }
+
+    except ImportError:
+        # Phase 6 pipeline missing; fallback to Phase 2
+        print("   ℹ️  Phase 6 pipeline not found, falling back to Phase 2 processing")
+        return process_with_phase2(pdf_path, output_dir)
+    except Exception as e:
+        return {
+            'status': 'failed',
+            'error': str(e)
+        }
+
+
+__all__ = ['process_with_docling', 'process_with_phase2', 'process_with_phase6']

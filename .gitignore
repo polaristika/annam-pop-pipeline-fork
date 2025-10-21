@@ -51,8 +51,11 @@ Thumbs.db
 htmlcov/
 
 # Model Files (optional - large pretrained models)
-# Uncomment if you don't want to commit the FastText model
-# misc/lid.176.bin
+# Don't commit the FastText model (125 MB - exceeds GitHub limit)
+misc/lid.176.bin
+
+# Large processed data files (exceeds GitHub recommended size)
+data/processed/
 
 # Jupyter Notebooks (if any)
 .ipynb_checkpoints/

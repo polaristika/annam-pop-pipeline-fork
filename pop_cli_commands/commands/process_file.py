@@ -70,10 +70,10 @@ class ProcessFileCommand:
             # Criteria: garbled_detected=True
             # These need OCR + text replacement, not standard Docling extraction
             if garbled:
-                print(f"   ⚠️  Phase 6 (Garbled Text) - Not yet integrated")
+                print(f"   ⚠️  Phase 6 (Garbled Text) - Processable")
                 print(f"      Reason: Contains garbled Unicode requiring OCR text replacement")
-                print(f"      Action: Phase 6 pipeline exists but not yet integrated into CLI")
-                return None, result
+                # Phase 6 is supported via pipeline if available; return phase 6
+                return 6, result
             
             # Phase 1: English PDFs
             # Criteria: lang_guess='en', lang_conf>=0.5, digital_guess=True
@@ -197,6 +197,49 @@ class ProcessFileCommand:
                 'phase': 2,
                 'error': str(e)
             }
+
+    def process_phase6(self, pdf_path: str, output_dir: Path) -> Dict:
+        """
+        Process garbled PDF using Phase 6 pipeline (Garbled text restoration).
+        Falls back to Phase 2 processing if Phase 6 pipeline is not available.
+        """
+        print(f"\n🔄 Processing with Phase 6 pipeline (Garbled text restoration)...")
+        try:
+            from pop_cli_commands.utils.processors import process_with_phase6
+
+            result = process_with_phase6(pdf_path, output_dir=str(output_dir))
+
+            if result.get('status') == 'success':
+                print(f"   ✅ Processing complete")
+                return {
+                    'status': 'success',
+                    'phase': 6,
+                    'json_path': result.get('json_path'),
+                    'md_path': result.get('md_path'),
+                    'output_dir': str(output_dir)
+                }
+            else:
+                print(f"   ❌ Processing failed: {result.get('error', 'Unknown error')}")
+                return {
+                    'status': 'failed',
+                    'phase': 6,
+                    'error': result.get('error', 'Unknown error')
+                }
+
+        except ImportError as e:
+            print(f"   ❌ Phase 6 processor not available: {e}")
+            return {
+                'status': 'failed',
+                'phase': 6,
+                'error': f'Phase 6 processor not available: {e}'
+            }
+        except Exception as e:
+            print(f"   ❌ Processing failed: {e}")
+            return {
+                'status': 'failed',
+                'phase': 6,
+                'error': str(e)
+            }
     
     def save_manifest(self, pdf_path: str, classification: Dict, processing_result: Dict, output_dir: Path):
         """Save processing manifest with all details."""
@@ -291,6 +334,8 @@ class ProcessFileCommand:
             result = self.process_phase1(str(pdf_path), out_dir)
         elif phase == 2:
             result = self.process_phase2(str(pdf_path), out_dir)
+        elif phase == 6:
+            result = self.process_phase6(str(pdf_path), out_dir)
         else:
             return {'status': 'failed', 'error': f'Invalid phase: {phase}'}
         
@@ -335,8 +380,8 @@ def add_parser(subparsers):
     parser.add_argument(
         '--force-phase',
         type=int,
-        choices=[1, 2],
-        help='Force specific phase (1=English, 2=Indic), skip classification'
+        choices=[1, 2, 6],
+        help='Force specific phase (1=English, 2=Indic, 6=Garbled), skip classification'
     )
     
     parser.add_argument(
