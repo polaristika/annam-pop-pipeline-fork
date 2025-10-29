@@ -1,0 +1,42 @@
+<a id='59f27732-ea80-46b1-b4ed-bde9b41d89a8'></a>
+
+<::logo: Punjab Technical University
+पंजाब तकनीकी विश्वविद्यालय
+नवाचार ही सुख है
+TRADEMARK
+The logo features a yellow arch-like shape with a central circular emblem containing a pink flower-like design on a black background, flanked by gear symbols, and text in Devanagari script and English.::>
+
+<a id='574bc8ea-ab7e-4504-a49f-57ed45fa5a85'></a>
+
+वसंतराव नाईक मराठवाडा कृषि विद्यापीठ, परभणी
+
+<a id='fd46c8d7-ab65-4592-a241-ff387e5b956f'></a>
+
+विद्यापीठाने निर्मिती केलेले सुधारित व संकरित वाणाबद्दल सर्व समावेशक व सविस्तर माहिती
+
+<a id='c9b5a34a-e7fd-4a22-8465-e5f24ac40ecb'></a>
+
+<table id="0-1">
+<tr><td id="0-2">अ.क्र.</td><td id="0-3" colspan="2">तपशील</td><td id="0-4">सविस्तर माहिती</td></tr>
+<tr><td id="0-5">१</td><td id="0-6" colspan="2">पीक/वाणाचे नाव</td><td id="0-7">भात : टीजेपी-४८</td></tr>
+<tr><td id="0-8">२</td><td id="0-9" colspan="2">प्रसारित केल्याचे वर्ष</td><td id="0-a">२०११</td></tr>
+<tr><td id="0-b">३</td><td id="0-c" colspan="2">प्रसारीत करणारी संस्था/विद्यापीठ</td><td id="0-d">वसंतराव नाईक मराठवाडा कृषि विद्यापीठ, परभणी</td></tr>
+<tr><td id="0-e">४</td><td id="0-f" colspan="2">जमीन</td><td id="0-g">काळी कसदार जमीन</td></tr>
+<tr><td id="0-h">५</td><td id="0-i" colspan="2">हवामान</td><td id="0-j">उत्तम पर्जन्यमान असलेले हवामान</td></tr>
+<tr><td id="0-k">६</td><td id="0-l" colspan="2">पेरणी/लागवडीचा कालावधी</td><td id="0-m">खरीप</td></tr>
+<tr><td id="0-n">७</td><td id="0-o" colspan="2">प्रती एकर बियाणे</td><td id="0-p">२५ किलो</td></tr>
+<tr><td id="0-q" rowspan="6">squiggle mark</td><td id="0-r" colspan="3">पीक व्यवस्थापन</td></tr>
+<tr><td id="0-s">१</td><td id="0-t">लागवडीचे/पेरणीचे व्यवस्थापन</td><td id="0-u">पेरणी पाभरीच्या सहाय्याने १५ जून ते १५ जुलै दरम्यान करावी.</td></tr>
+<tr><td id="0-v">२</td><td id="0-w">खत व्यवस्थापन</td><td id="0-x">८०:५०:५० नत्र, स्फुरद व पालाश कि./हे. द्यावे या खताची मात्रा तीन हफ्त्यात द्यावी. १. पेरणीच्या वेळी २० टक्के नत्र, १०० टक्के स्फुरद व पालाश पेरुन द्यावे. २. पेरणीनंतर ३० दिवसांनी ५० टक्के नत्र द्यावे. ३. पेरणीनंतर ६० दिवसांनी राहिलेले ३० टक्के नत्र द्यावे.</td></tr>
+<tr><td id="0-y">३</td><td id="0-z">पाणी व्यवस्थापन</td><td id="0-A">पाऊसाचा ताण पडल्यास पाणी देणे आवश्यक आहे.</td></tr>
+<tr><td id="0-B">४</td><td id="0-C">कीड व्यवस्थापन</td><td id="0-D">खोडकिडी : या किडीच्या नियंत्रणासाठी १६०० मिली क्विनॉलफॉस प्रती हेक्टरी ५०० लीटर पाण्यात मिसळून फवारणी करावी. पाने गुंडाळणारी अळी : या किडीच्या नियंत्रणासाठी मोनोक्रोटोफॉस ७०० मिली किंवा क्लोरोपायरीफॉस २० ईसी १ लीटर ५०० लीटर पाण्यात मिसळून फवारावी.</td></tr>
+<tr><td id="0-E">५</td><td id="0-F">रोग व्यवस्थापन</td><td id="0-G">करपा : हा एक बुरशीजन्य रोग असुन या पिकाच्या सर्वच अवस्थेत आढळुन येतो. मानेवरील करपा : यामध्ये लोंबीच्या देठावर गर्द, तपकिरी व काळे ठिपके पडुन मान कुजुन जाते. वरील रोगाच्या नियंत्रणासाठी प्रतीबंधात्मक उपाय म्हणून कार्बेन्डॉझिम २ ग्रॅम प्रती किलो बियाण्यास पेरणीपुर्वी बीजप्रक्रिया</td></tr>
+</table>
+
+<a id='1f4c14ff-3b2b-4081-b2fb-a5bc12eddea0'></a>
+
+करावी. ९ पिकाचा कालावधी ११० - ११५ दिवस १० उत्पादकता २२-२४ क्वि. प्रती हेक्टरी ११ वाणाची वैशिष्ट्ये/विशेष गुणधर्म १. सुवासिक वाण २. लांबट टपोरे दाणे ३. कोरडवाहू वाण १२ वाणासंबंधीचे छायाचित्रे <::A photograph showing a field of green crops, likely the variety being discussed.: figure::>
+
+<a id='32584c96-094e-4cfb-beec-2876dc5e70e6'></a>
+
+<::A photograph of a field of green crops, possibly rice or wheat, growing in dark soil. The crops are tall and dense, filling most of the frame. In the background, there is a light-colored fence or wall, and some trees are visible further in the distance. The image is framed with a thick blue border.: figure::>

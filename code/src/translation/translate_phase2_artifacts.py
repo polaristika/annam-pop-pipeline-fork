@@ -69,29 +69,145 @@ class IndicTrans2Translator:
         target_lang = "eng_Latn"  # English
         
         # Format texts with language tags: "SRC_LANG TGT_LANG text"
-        formatted_texts = [f"{indic_lang} {target_lang} {text}" for text in texts]
+        formatted_texts = []
+        for text in texts:
+            # Ensure text is a str
+            if not isinstance(text, str):
+                text = str(text)
+
+            t = text.strip()
+
+            # If the text already looks like "SRC TGT rest..." and has >=3 parts, keep it
+            parts = t.split(" ", 2)
+            if len(parts) == 3:
+                src_tag = parts[0]
+                # quick heuristic: if src_tag contains angle brackets like <2mr> or <mr>,
+                # normalize to two-letter code and map to indic_lang
+                if src_tag.startswith("<") and src_tag.endswith(">"):
+                    inner = src_tag[1:-1]
+                    # drop any leading digits like '2' used by some tokenizers
+                    if len(inner) > 2 and inner[0].isdigit():
+                        inner = inner.lstrip('0123456789')
+                    two_letter = inner[-2:]
+                    mapped = lang_map.get(two_letter, indic_lang)
+                    formatted_texts.append(f"{mapped} {target_lang} {parts[2]}")
+                    continue
+
+                # if src_tag already matches one of our mapped values, keep it
+                if src_tag in lang_map.values() or src_tag == indic_lang:
+                    formatted_texts.append(t)
+                    continue
+
+                # if src_tag looks like a two-letter code (mr, ta, etc.), map it
+                if len(src_tag) == 2 and src_tag.isalpha():
+                    mapped = lang_map.get(src_tag, indic_lang)
+                    formatted_texts.append(f"{mapped} {target_lang} {parts[2]}")
+                    continue
+
+            # For any other case, produce a safe, explicit formatted string
+            formatted_texts.append(f"{indic_lang} {target_lang} {t}")
         
         translations = []
         for i in range(0, len(formatted_texts), batch_size):
             batch = formatted_texts[i:i+batch_size]
             
-            # Tokenize
-            inputs = self.tokenizer(
-                batch,
-                return_tensors="pt",
-                padding=True,
-                truncation=True,
-                max_length=512
-            ).to(self.model.device)
+            # Tokenize (defensive: tokenizer from remote code may assert on unexpected formats)
+            try:
+                inputs = self.tokenizer(
+                    batch,
+                    return_tensors="pt",
+                    padding=True,
+                    truncation=True,
+                    max_length=512
+                ).to(self.model.device)
+            except (AssertionError, ValueError, Exception) as tok_err:
+                print(f"    [WARNING] Tokenizer failed on batch with error: {tok_err}. Retrying with safe formatting...")
+                # Rebuild a safe batch with explicit indic_lang target_lang prefix
+                safe_batch = [f"{indic_lang} {target_lang} {('' if not isinstance(t, str) else t)}" for t in batch]
+                try:
+                    inputs = self.tokenizer(
+                        safe_batch,
+                        return_tensors="pt",
+                        padding=True,
+                        truncation=True,
+                        max_length=512
+                    ).to(self.model.device)
+                    batch = safe_batch
+                except (AssertionError, ValueError, Exception) as tok_err2:
+                    print(f"    [ERROR] Safe-batch tokenization also failed: {tok_err2}. Falling back to item-wise tokenization.")
+                    # Item-wise attempt: tokenize each item separately to isolate failures
+                    inputs_list = []
+                    for j, item in enumerate(batch):
+                        safe_item = f"{indic_lang} {target_lang} {item}"
+                        try:
+                            single = self.tokenizer(
+                                safe_item,
+                                return_tensors="pt",
+                                padding=True,
+                                truncation=True,
+                                max_length=512
+                            )
+                            inputs_list.append((j, single))
+                        except Exception as e_item:
+                            print(f"      [ERROR] Tokenizer failed for item {j}: {e_item}. Will skip this item.")
+                            inputs_list.append((j, None))
+                    # Create a combined inputs dict where possible; we'll process per-item later
+                    # Use inputs_list sentinel to indicate per-item processing in generation stage
+                    inputs = inputs_list
             
             # Translate
             with torch.no_grad():
-                generated = self.model.generate(
-                    **inputs,
-                    max_new_tokens=max_new_tokens,
-                    num_beams=4,
-                    early_stopping=True
-                )
+                # If inputs is a list, we failed batch tokenization earlier and must process item-wise
+                if isinstance(inputs, list):
+                    # inputs is a list of tuples (index_in_batch, tokenized_or_None)
+                    generated_texts = [None] * len(inputs)
+                    for j, tokenized in inputs:
+                        if tokenized is None:
+                            generated_texts[j] = ""
+                            continue
+                        tokenized = {k: v.to(self.model.device) for k, v in tokenized.items()}
+                        try:
+                            out = self.model.generate(
+                                **tokenized,
+                                max_new_tokens=max_new_tokens,
+                                num_beams=1,
+                                use_cache=False,
+                                early_stopping=True
+                            )
+                        except Exception as e_item_gen:
+                            print(f"      [ERROR] Generation failed for item {j}: {e_item_gen}. Skipping.")
+                            generated_texts[j] = ""
+                            continue
+                        dec = self.tokenizer.batch_decode(out, skip_special_tokens=True)
+                        generated_texts[j] = dec[0] if dec else ""
+                    # Append in-order translations for this batch
+                    translations.extend(generated_texts)
+                    continue
+
+                try:
+                    generated = self.model.generate(
+                        **inputs,
+                        max_new_tokens=max_new_tokens,
+                        num_beams=4,
+                        early_stopping=True
+                    )
+                except Exception as e:
+                    # Some model implementations (or device/dispatched setups) can
+                    # raise internal errors related to past_key_values during
+                    # beam search. Fall back to a safer generation mode (no
+                    # caching / single-beam) and retry once.
+                    print(f"    [WARNING] Primary generate failed: {e}; retrying with use_cache=False and num_beams=1")
+                    try:
+                        generated = self.model.generate(
+                            **inputs,
+                            max_new_tokens=max_new_tokens,
+                            num_beams=1,
+                            use_cache=False,
+                            early_stopping=True
+                        )
+                    except Exception as e2:
+                        print(f"    [ERROR] Fallback generate also failed: {e2}")
+                        raise
             
             # Decode
             batch_translations = self.tokenizer.batch_decode(
