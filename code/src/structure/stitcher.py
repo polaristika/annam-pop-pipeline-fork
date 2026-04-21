@@ -1,7 +1,7 @@
 # src/structure/stitcher.py
 import os, json, argparse, base64
 from pathlib import Path
-from src.utils.io import ensure_dir, write_json
+from utils.io import ensure_dir, write_json
 from PIL import Image
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions, EasyOcrOptions
@@ -39,7 +39,7 @@ def image_to_base64(img):
 
 def get_vlm_description(image):
     try:
-        from src.utils.vlm_utils import get_blip_caption
+        from utils.vlm_utils import get_blip_caption
         return get_blip_caption(image)
     except Exception as e:
         print(f"[VLM ERROR] {e}")

@@ -3,7 +3,7 @@ import argparse, json
 from pdf2image import convert_from_path
 import easyocr
 from pathlib import Path
-from src.utils.io import ensure_dir
+from utils.io import ensure_dir
 import numpy as np
 
 def ocr_pdf(pdf_path, out_jsonl, dpi=300, lang_list=['en']):

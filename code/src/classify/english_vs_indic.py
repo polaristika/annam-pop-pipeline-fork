@@ -102,10 +102,10 @@ def _get_fasttext_model():
     """Lazy load FastText model."""
     global _FASTTEXT_MODEL
     if _FASTTEXT_MODEL is None:
-        model_path = 'lid.176.bin'
+        _project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+        model_path = os.path.join(_project_root, 'lid.176.bin')
         if not os.path.exists(model_path):
-            # Try absolute path from project root
-            model_path = os.path.join(os.path.dirname(__file__), '../../lid.176.bin')
+            model_path = os.path.join(_project_root, 'misc', 'lid.176.bin')
         if os.path.exists(model_path):
             _FASTTEXT_MODEL = fasttext.load_model(model_path)
         else:
@@ -227,9 +227,16 @@ def _detect_garbled_text(text: str) -> bool:
     if corruption_score > 0.12 and ascii_ratio < 0.50:
         return True
     
-    # 3. Latin-1 supplement alone >15% (more sensitive)
-    if latin1_ratio > 0.15:
+    # 3. Latin-1 supplement alone >10% (more sensitive)
+    if latin1_ratio > 0.10:
         return True
+
+    # 3b. Latin-1 as ratio of non-ASCII chars (catches mixed English+garbled Indic)
+    non_ascii = latin1_supplement + math_operators + diacriticals + box_drawing + indic_range_chars
+    if non_ascii > 0:
+        latin1_of_non_ascii = latin1_supplement / non_ascii
+        if latin1_of_non_ascii > 0.50 and latin1_supplement >= 3:
+            return True
     
     # 4. Math operators alone >8% (highly suspicious)
     if math_ratio > 0.08:
@@ -251,7 +258,7 @@ def _detect_garbled_text(text: str) -> bool:
     return False
 
 
-def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 2) -> Dict[str, object]:  # dpi unused placeholder
+def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 5) -> Dict[str, object]:  # dpi unused placeholder
     try:
         reader = PdfReader(pdf_path)
     except Exception:

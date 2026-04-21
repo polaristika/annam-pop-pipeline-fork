@@ -3,7 +3,7 @@ import argparse, json
 from pdf2image import convert_from_path
 from paddleocr import PaddleOCR
 from pathlib import Path
-from src.utils.io import ensure_dir
+from utils.io import ensure_dir
 import numpy as np
 
 def paddle_ocr_pdf(pdf_path, out_jsonl, lang="en", dpi=300):

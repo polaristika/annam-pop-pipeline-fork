@@ -8,7 +8,7 @@ from typing import Dict, Any
 
 from PyPDF2 import PdfReader
 from PyPDF2.errors import PdfReadWarning
-from src.classify.english_vs_indic import english_vs_indic
+from classify.english_vs_indic import english_vs_indic
 import langid
 
 DATA_ROOT = "data/raw/POP Bank"

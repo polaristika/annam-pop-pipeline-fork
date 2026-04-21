@@ -2,7 +2,7 @@
 import argparse, json
 from pdf2image import convert_from_path
 from pathlib import Path
-from src.utils.io import ensure_dir
+from utils.io import ensure_dir
 from PIL import Image
 import pytesseract
 import numpy as np

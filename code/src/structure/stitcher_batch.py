@@ -12,7 +12,7 @@ This avoids per-image model load overhead.
 import os, json, argparse, base64, sys
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-from src.utils.io import ensure_dir, write_json
+from utils.io import ensure_dir, write_json
 from PIL import Image
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import PdfPipelineOptions, EasyOcrOptions
@@ -26,7 +26,7 @@ def get_vlm_model():
     global _VLM_MODEL
     if _VLM_MODEL is None:
         try:
-            from src.utils.vlm_utils import load_blip_model
+            from utils.vlm_utils import load_blip_model
             _VLM_MODEL = load_blip_model()
         except Exception as e:
             print(f"[WARN] VLM model load failed: {e}", file=sys.stderr)
@@ -41,7 +41,7 @@ def batch_vlm_descriptions(images):
         return ["[VLM unavailable]"] * len(images)
     
     try:
-        from src.utils.vlm_utils import batch_blip_captions
+        from utils.vlm_utils import batch_blip_captions
         return batch_blip_captions(model, images)
     except Exception as e:
         print(f"[WARN] Batch VLM failed, falling back: {e}", file=sys.stderr)
@@ -49,7 +49,7 @@ def batch_vlm_descriptions(images):
         descs = []
         for img in images:
             try:
-                from src.utils.vlm_utils import get_blip_caption_with_model
+                from utils.vlm_utils import get_blip_caption_with_model
                 descs.append(get_blip_caption_with_model(model, img))
             except Exception:
                 descs.append("[VLM error]")

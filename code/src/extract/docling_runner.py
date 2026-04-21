@@ -1,7 +1,7 @@
 # src/extract/docling_runner.py
 import os, json, argparse
 from pathlib import Path
-from src.utils.io import ensure_dir, write_json
+from utils.io import ensure_dir, write_json
 from docling.document_converter import DocumentConverter
 
 def run_docling(pdf_path, out_json):

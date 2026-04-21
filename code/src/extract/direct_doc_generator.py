@@ -8,8 +8,8 @@ import base64
 from io import BytesIO
 from pathlib import Path
 from docling.document_converter import DocumentConverter
-from src.utils.vlm_utils import get_blip_caption
-from src.utils.io import ensure_dir
+from utils.vlm_utils import get_blip_caption
+from utils.io import ensure_dir
 
 
 def image_to_base64(pil_img):

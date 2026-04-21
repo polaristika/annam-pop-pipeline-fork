@@ -1,7 +1,7 @@
 # src/translate/indictrans_runner.py
 import argparse, json, torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-from src.utils.io import write_json
+from utils.io import write_json
 
 def load_model(name):
     tok = AutoTokenizer.from_pretrained(name)

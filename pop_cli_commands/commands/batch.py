@@ -63,7 +63,7 @@ class BatchCommand(BaseCommand):
             # Select files for batch processing
             files_to_process = self._select_files(df)
             
-            if not files_to_process:
+            if files_to_process.empty:
                 print("❌ No files match the specified criteria.")
                 return False
             
@@ -144,7 +144,7 @@ class BatchCommand(BaseCommand):
         unprocessed = []
         for _, row in df.iterrows():
             doc_id = Path(row['file_path']).stem
-            output_dir = output_base / 'raw' / doc_id
+            output_dir = output_base / doc_id
             
             if not output_dir.exists() or self.args.force:
                 unprocessed.append(row)
@@ -273,7 +273,7 @@ class BatchCommand(BaseCommand):
         """Process a single PDF file."""
         try:
             output_base = self.config.get(f'paths.phase{self.args.phase}_output')
-            output_dir = Path(output_base) / 'raw' / doc_id
+            output_dir = Path(output_base) / doc_id
             
             # Check if already processed
             if output_dir.exists() and not self.args.force:
@@ -297,9 +297,20 @@ class BatchCommand(BaseCommand):
             with open(output_dir / 'processing_info.json', 'w') as f:
                 json.dump(results, f, indent=2)
             
-            # TODO: Replace with actual pipeline call
-            # This is where the real processing would happen
-            
+            # Run actual pipeline
+            import sys
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'code' / 'src'))
+            from pipeline.phase6_improved_v2_json import ImprovedPhase6PipelineV2
+            pipeline = ImprovedPhase6PipelineV2()
+            result = pipeline.process_pdf(
+                pdf_path=str(pdf_path),
+                output_dir=str(output_dir),
+                doc_id=doc_id,
+                state=state
+            )
+            if result.get('status') != 'success':
+                raise Exception(result.get('error', 'Pipeline failed'))
+
             return True
             
         except Exception as e:

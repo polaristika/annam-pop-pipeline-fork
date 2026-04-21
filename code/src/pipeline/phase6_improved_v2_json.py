@@ -8,7 +8,7 @@ the full text-replacement pipeline is available.
 from pathlib import Path
 import json
 
-def _generate_md_and_json(pdf_path: str, out_dir: str, doc_id: str):
+def _generate_md_and_json(pdf_path: str, out_dir: str, doc_id: str, state: str = None):
     """Reuse Phase 2 components to generate MD and JSON as placeholders."""
     try:
         from extract.direct_doc_generator import generate_doc_md_direct
@@ -26,7 +26,7 @@ def _generate_md_and_json(pdf_path: str, out_dir: str, doc_id: str):
 
     # Step 2: convert md to json
     converter = UltraFastMarkdownToJsonConverter()
-    json_data = converter.convert_md_to_json(str(md_path), doc_id, metadata={'Source': 'phase6_fallback'})
+    json_data = converter.convert_md_to_json(str(md_path), doc_id, metadata={'Source': 'phase6_fallback', 'State': state or ''})
     json_path = out_dir / f"{Path(pdf_path).stem}_output.json"
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
@@ -60,4 +60,4 @@ class ImprovedPhase6PipelineV2:
         if doc_id is None:
             doc_id = Path(pdf_path).stem
 
-        return _generate_md_and_json(pdf_path, output_dir, doc_id)
+        return _generate_md_and_json(pdf_path, output_dir, doc_id, state=state)

@@ -12,7 +12,7 @@ This avoids the 3-7s per-doc pipeline reload seen in sequential runs.
 import json, argparse, sys
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-from src.utils.io import ensure_dir, write_json
+from utils.io import ensure_dir, write_json
 from docling.document_converter import DocumentConverter
 
 def process_batch(pdf_paths, out_jsons, pipeline_options=None):

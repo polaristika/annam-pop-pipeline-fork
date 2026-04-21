@@ -1,7 +1,7 @@
 # src/structure/vlm_stitcher.py
 import argparse, json
 from pathlib import Path
-from src.utils.io import ensure_dir, write_json
+from utils.io import ensure_dir, write_json
 
 def vlm_to_docjson_and_md(vlm_json_path, doc_id, out_dir):
     out_dir = Path(out_dir)

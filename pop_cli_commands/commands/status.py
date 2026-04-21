@@ -240,7 +240,7 @@ class StatusCommand(BaseCommand):
         # Check both phase output directories
         for phase in [1, 2]:
             output_base = Path(self.config.get(f'paths.phase{phase}_output'))
-            raw_dir = output_base / 'raw'
+            raw_dir = output_base
             
             if raw_dir.exists():
                 for doc_dir in raw_dir.iterdir():
@@ -305,7 +305,7 @@ class StatusCommand(BaseCommand):
         # Check both phase output directories for failed attempts
         for phase in [1, 2]:
             output_base = Path(self.config.get(f'paths.phase{phase}_output'))
-            raw_dir = output_base / 'raw'
+            raw_dir = output_base
             
             if raw_dir.exists():
                 for doc_dir in raw_dir.iterdir():
@@ -418,7 +418,7 @@ class StatusCommand(BaseCommand):
     def _count_processed_files(self, phase: int) -> int:
         """Count processed files for a phase."""
         output_base = Path(self.config.get(f'paths.phase{phase}_output'))
-        raw_dir = output_base / 'raw'
+        raw_dir = output_base
         
         if not raw_dir.exists():
             return 0

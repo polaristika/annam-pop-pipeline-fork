@@ -55,7 +55,7 @@ class ProcessCommand(BaseCommand):
             # Select files to process
             files_to_process = self._select_files(df)
             
-            if not files_to_process:
+            if files_to_process.empty:
                 print("❌ No files match the specified criteria.")
                 return False
             
@@ -160,7 +160,7 @@ class ProcessCommand(BaseCommand):
             
             try:
                 # Check if already processed
-                output_dir = Path(output_base) / 'raw' / doc_id
+                output_dir = Path(output_base) / doc_id
                 if output_dir.exists() and not self.args.force:
                     print(f"  ⏭️  Already processed (use --force to reprocess)")
                     success_count += 1
@@ -220,14 +220,19 @@ class ProcessCommand(BaseCommand):
             with open(output_dir / 'processing_info.json', 'w') as f:
                 json.dump(results, f, indent=2)
             
-            # TODO: Replace with actual pipeline call:
-            # pipeline = ImprovedPhase6PipelineV2(use_gpu=self.args.gpu)
-            # result = pipeline.process_pdf(
-            #     pdf_path=Path(pdf_path),
-            #     output_dir=output_dir,
-            #     doc_id=doc_id,
-            #     state=state
-            # )
+            # Run actual pipeline
+            import sys
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'code' / 'src'))
+            from pipeline.phase6_improved_v2_json import ImprovedPhase6PipelineV2
+            pipeline = ImprovedPhase6PipelineV2(use_gpu=self.args.gpu)
+            result = pipeline.process_pdf(
+                pdf_path=str(pdf_path),
+                output_dir=str(output_dir),
+                doc_id=doc_id,
+                state=state
+            )
+            if result.get('status') != 'success':
+                raise Exception(result.get('error', 'Pipeline failed'))
             
             print(f"  📄 Created processing metadata")
             return True

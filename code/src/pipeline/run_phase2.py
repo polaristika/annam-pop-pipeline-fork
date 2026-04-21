@@ -15,8 +15,8 @@ from datetime import datetime
 from tqdm import tqdm
 
 # Import pipeline components
-from src.extract.direct_doc_generator import generate_doc_md_direct
-from src.structure.md_to_json_converter_ultra import UltraFastMarkdownToJsonConverter
+from extract.direct_doc_generator import generate_doc_md_direct
+from structure.md_to_json_converter_ultra import UltraFastMarkdownToJsonConverter
 
 
 def process_single_pdf(row, converter):

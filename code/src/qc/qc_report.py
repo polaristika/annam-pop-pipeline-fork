@@ -1,7 +1,7 @@
 # src/qc/qc_report.py
 import json, argparse, statistics
 from pathlib import Path
-from src.utils.io import write_json
+from utils.io import write_json
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
