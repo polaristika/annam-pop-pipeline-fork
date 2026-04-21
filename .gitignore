@@ -91,3 +91,11 @@ run_production.py
 *_GUIDE.md
 *_RESULTS.md
 !docs/*.md
+artifacts/
+data/ocr/
+get-pip.py
+ocr_all_files.txt
+phase3_scanned_english.txt
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
