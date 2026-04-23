@@ -14,6 +14,7 @@ sys.path.insert(0, str(code_src_path))
 sys.path.insert(0, str(code_src_path.parent))
 
 from pop_cli_commands.core.base import BaseCommand
+from pipeline.phase6_improved_v2_json import ImprovedPhase6PipelineV2
 
 
 class ProcessCommand(BaseCommand):
@@ -55,7 +56,7 @@ class ProcessCommand(BaseCommand):
             # Select files to process
             files_to_process = self._select_files(df)
             
-            if not files_to_process:
+            if files_to_process.empty:
                 print("❌ No files match the specified criteria.")
                 return False
             
@@ -160,7 +161,7 @@ class ProcessCommand(BaseCommand):
             
             try:
                 # Check if already processed
-                output_dir = Path(output_base) / 'raw' / doc_id
+                output_dir = Path(output_base) /  doc_id
                 if output_dir.exists() and not self.args.force:
                     print(f"  ⏭️  Already processed (use --force to reprocess)")
                     success_count += 1
@@ -228,6 +229,16 @@ class ProcessCommand(BaseCommand):
             #     doc_id=doc_id,
             #     state=state
             # )
+            
+            pipeline = ImprovedPhase6PipelineV2(use_gpu=self.args.gpu)
+            result = pipeline.process_pdf(
+                pdf_path=str(pdf_path),
+                output_dir=str(output_dir),
+                doc_id=doc_id,
+                state=state
+            )
+            if result.get('status') != 'success':
+                raise Exception(result.get('error', 'Pipeline failed'))
             
             print(f"  📄 Created processing metadata")
             return True

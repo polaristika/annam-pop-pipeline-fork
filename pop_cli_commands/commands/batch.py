@@ -63,7 +63,7 @@ class BatchCommand(BaseCommand):
             # Select files for batch processing
             files_to_process = self._select_files(df)
             
-            if not files_to_process:
+            if files_to_process.empty:
                 print("❌ No files match the specified criteria.")
                 return False
             
@@ -273,7 +273,7 @@ class BatchCommand(BaseCommand):
         """Process a single PDF file."""
         try:
             output_base = self.config.get(f'paths.phase{self.args.phase}_output')
-            output_dir = Path(output_base) / 'raw' / doc_id
+            output_dir = Path(output_base) / doc_id
             
             # Check if already processed
             if output_dir.exists() and not self.args.force:

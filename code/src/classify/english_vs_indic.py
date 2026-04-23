@@ -102,10 +102,17 @@ def _get_fasttext_model():
     """Lazy load FastText model."""
     global _FASTTEXT_MODEL
     if _FASTTEXT_MODEL is None:
-        model_path = 'lid.176.bin'
+        # model_path = 'lid.176.bin'
+        # if not os.path.exists(model_path):
+        #     # Try absolute path from project root
+        #     model_path = os.path.join(os.path.dirname(__file__), '../../lid.176.bin')
+        _project_root = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), '..', '..', '..')
+        )
+
+        model_path = os.path.join(_project_root, 'lid.176.bin')
         if not os.path.exists(model_path):
-            # Try absolute path from project root
-            model_path = os.path.join(os.path.dirname(__file__), '../../lid.176.bin')
+            model_path = os.path.join(_project_root, 'misc', 'lid.176.bin')
         if os.path.exists(model_path):
             _FASTTEXT_MODEL = fasttext.load_model(model_path)
         else:
@@ -247,6 +254,12 @@ def _detect_garbled_text(text: str) -> bool:
     # Additional check for short samples with heavy corruption
     if corruption_score > 0.10 and ascii_ratio < 0.30:
         return True
+
+    non_ascii = latin1_supplement + math_operators + diacriticals + box_drawing + indic_range_chars
+    if non_ascii > 0:
+        latin1_of_non_ascii = latin1_supplement / non_ascii
+        if latin1_of_non_ascii > 0.50 and latin1_supplement >= 3:
+            return True
     
     return False
 
