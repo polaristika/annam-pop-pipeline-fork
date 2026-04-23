@@ -135,7 +135,7 @@ def _process_single(path: str) -> Dict[str, Any]:
     md5 = md5sum(path)
     state = Path(path).parent.name
     result = classify_pdf_simple(path)
-    probe = english_vs_indic(path, pages=2)
+    probe = english_vs_indic(path, pages=10)
     digital_guess = result["class"].startswith("digital")
     return {
         "file_path": path,

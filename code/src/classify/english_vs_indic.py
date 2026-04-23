@@ -40,6 +40,7 @@ from __future__ import annotations
 from typing import Dict, List
 from PyPDF2 import PdfReader
 import fasttext
+import random
 import os
 
 # All 22 officially recognized Indian languages (Constitution of India, 8th Schedule)
@@ -264,7 +265,7 @@ def _detect_garbled_text(text: str) -> bool:
     return False
 
 
-def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 2) -> Dict[str, object]:  # dpi unused placeholder
+def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 10) -> Dict[str, object]:  # dpi unused placeholder
     try:
         reader = PdfReader(pdf_path)
     except Exception:
@@ -280,8 +281,11 @@ def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 2) -> Dict[str,
     votes: List[str] = []
     confidences: List[float] = []
     garbled_pages: List[bool] = []  # Track which pages had garbled text
-    page_slice = reader.pages[:pages]
-    
+    total_pages = len(reader.pages)
+    rng = random.Random(hash(pdf_path))
+    indices = rng.sample(range(total_pages), min(pages, total_pages))
+    page_slice = [reader.pages[i] for i in sorted(indices)]
+
     for p in page_slice:
         try:
             txt = p.extract_text() or ""
@@ -344,7 +348,9 @@ def english_vs_indic(pdf_path: str, dpi: int = 180, pages: int = 2) -> Dict[str,
                     votes.append("unsure")
                     confidences.append(conf)
                     garbled_pages.append(False)
-        except Exception:
+        except Exception as e:
+            import sys
+            print(f"[english_vs_indic] FastText predict failed: {e}", file=sys.stderr)
             votes.append("unsure")
             confidences.append(0.0)
             garbled_pages.append(False)
