@@ -1,0 +1,22 @@
+# pop_2 pipeline credentials and config — EXAMPLE (no real values)
+# Copy to .pop_2_env and fill in your credentials.
+
+# ── Zoho OAuth ───────────────────────────────────────────────────
+ZOHO_CLIENT_ID=
+ZOHO_CLIENT_SECRET=
+# Auth code is single-use (10-min TTL). Paste it here before running zoho-auth, then clear it.
+ZOHO_AUTH_CODE=
+
+ZOHO_WORKBOOK_ID=egcqk17ec3dd273a64674b4622eae0def0bdd
+ZOHO_TOKENS_FILE=zoho_tokens.json
+
+# ── MongoDB ───────────────────────────────────────────────────────
+MONGO_URI=
+MONGO_DB=new_pdf_chunks_and_metadata
+MONGO_COLLECTION=new_paulose
+
+# ── Paths ─────────────────────────────────────────────────────────
+# Relative to project root
+DATA_DIR=artifacts/phase1_english
+DEDUP_OUTPUT_CSV=output.csv
+DEDUP_OUTPUT_XLSX=unique_urls.xlsx

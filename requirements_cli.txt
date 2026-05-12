@@ -1,0 +1,37 @@
+# Core dependencies for CLI and PDF processing
+pandas==2.3.2
+numpy==2.2.6
+PyYAML==6.0.2
+langid
+fasttext-wheel
+pdfminer.six
+pillow==11.3.0
+requests==2.32.5
+beautifulsoup4==4.13.5
+typer
+click==8.3.0
+rich==14.1.0
+sentence-transformers
+transformers
+
+# OCR and document processing (without GPU)
+easyocr==1.7.2
+opencv-python-headless
+pytesseract==0.3.13
+pdf2image==1.17.0
+
+# Document parsing
+docling
+docling-core==2.48.1
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+
+# Utilities
+tqdm==4.67.1
+filelock==3.19.1
+setuptools==79.0.1
+PyMuPDF
+imagehash
+pymongo>=4.6
+

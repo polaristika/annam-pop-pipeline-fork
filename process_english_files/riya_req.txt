@@ -1,0 +1,8 @@
+pandas
+openpyxl
+pymongo
+sentence-transformers
+transformers
+torch
+numpy
+tqdm

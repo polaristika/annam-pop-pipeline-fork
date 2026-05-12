@@ -1,0 +1,27 @@
+# Project Paths Configuration
+project_root: /home/aic_u1/pop_scraping
+
+# Data paths
+data:
+  raw: ${project_root}/data/raw/POP Bank
+  processed_phase1: ${project_root}/data/processed/phase1
+  processed_phase2: ${project_root}/data/processed/phase2
+  metadata: ${project_root}/data/metadata
+  results: ${project_root}/data/results
+
+# Artifacts
+artifacts:
+  phase1: ${project_root}/artifacts/phase1_english
+  phase2_raw: ${project_root}/artifacts/phase2_indic/raw
+  phase2_organized: ${project_root}/artifacts/phase2_indic/organized
+
+# Outputs
+outputs:
+  logs: ${project_root}/logs
+  docs: ${project_root}/docs
+  archives: ${project_root}/archives
+
+# Models
+models:
+  fasttext: ${project_root}/misc/lid.176.bin
+  blip: Salesforce/blip-image-captioning-base

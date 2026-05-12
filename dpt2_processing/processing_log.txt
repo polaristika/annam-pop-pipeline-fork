@@ -1,0 +1,465 @@
+Starting DPT-2 batch processing for garbled files
+Input CSV: /home/aic_u1/aic_u1/pop_scraping/dpt2_processing/garbled_pdfs.csv
+[1] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Betelvine.pdf
+[2] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Coconut.pdf
+[3] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Mango 1.pdf
+[4] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Mango.pdf
+[5] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Onion.pdf
+[6] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Papaya.pdf
+[7] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Pomegranate.pdf
+[8] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Andra Pradesh/POP- Turmeric.pdf
+[9] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/ABPC-4-3.pdf
+[10] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/AHB-1200.pdf
+[11] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/AHB-1269.pdf
+[12] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/AHB-1666.pdf
+[13] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/AIMP-92901.pdf
+[14] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Ajantha.pdf
+[15] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Aviskar.pdf
+[16] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BD-2.pdf
+[17] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDN-708.pdf
+[18] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDN-711.pdf
+[19] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDN-716.pdf
+[20] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDN-9-3.pdf
+[21] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDNG-797.pdf
+[22] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BDNGK-798.pdf
+[23] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BM-2002-1.pdf
+[24] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BM-2003-2.pdf
+[25] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BM-4.pdf
+[26] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BPMR-145.pdf
+[27] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BSMR-736.pdf
+[28] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/BSMR-853.pdf
+[29] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Bhendi.pdf
+[30] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Black-Gram.pdf
+[31] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/CSH-25.pdf
+[32] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/CSV-18.pdf
+[33] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Custard-Apple.pdf
+[34] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Groundnut-01.pdf
+[35] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Groundnut-02.pdf
+[36] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Groundnut-123.pdf
+[37] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Groundnut-45.pdf
+[38] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Linseed-93.pdf
+[39] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Linseed-RLC-04.pdf
+[40] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/MAUS-158.pdf
+[41] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/MAUS-162.pdf
+[42] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/MAUS-612.pdf
+[43] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/MAUS-71.pdf
+[44] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/MAUS-81.pdf
+[45] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Mirchi.pdf
+[46] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Muktta.pdf
+[47] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NH-452-(Renuka).pdf
+[48] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NH-545.pdf
+[49] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NH-615-(Anusaya).pdf
+[50] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NH-635.pdf
+[51] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NHH-250.pdf
+[52] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NHH-44.pdf
+[53] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/NHH-715.pdf
+[54] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/No-263.pdf
+[55] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-08.pdf
+[56] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-141-(Namdeo).pdf
+[57] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-183-(Sawta).pdf
+[58] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-255-(Parbhani-Turab).pdf
+[59] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-32-(Eknath).pdf
+[60] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-402-(Vinayak).pdf
+[61] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PA-528.pdf
+[62] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PBN-12.pdf
+[63] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PBN-40.pdf
+[64] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PBN-86.pdf
+[65] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PBNR.pdf
+[66] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PH-348-(Yamuna).pdf
+[67] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PHA-46.pdf
+[68] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PHH-316.pdf
+[69] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PPC-6.pdf
+[70] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PVK-400.pdf
+[71] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PVK-801.pdf
+[72] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/PVK-809.pdf
+[73] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Parag.pdf
+[74] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Prabhavti.pdf
+[75] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Pratisthan.pdf
+[76] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Release_Impliments.pdf
+[77] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/SPH-1641.pdf
+[78] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/SPV-1411.pdf
+[79] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Shiwai.pdf
+[80] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Sugandha.pdf
+[81] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Sunflower-08.pdf
+[82] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Sunflower-11.pdf
+[83] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Sunflower-171.pdf
+[84] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Sunflower-35.pdf
+[85] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/TJP-48.pdf
+[86] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/TP-7.pdf
+[87] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Terna.pdf
+[88] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Tomato.pdf
+[89] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Maharashtra/Yellora.pdf
+[90] SKIP: PDF not found - /home/aic_u1/aic_u1/pop_scraping/data/POP Bank/Rajasthan/final.pdf
+
+=== Batch Processing Complete ===
+Total: 90 | Success: 0 | Failed: 90
+Starting DPT-2 batch processing for garbled files
+Input CSV: /home/aic_u1/aic_u1/pop_scraping/dpt2_processing/garbled_pdfs.csv
+[1] Processing: POP- Betelvine.pdf (Andra Pradesh)
+[1] FAILED: POP- Betelvine.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[2] Processing: POP- Coconut.pdf (Andra Pradesh)
+[2] FAILED: POP- Coconut.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[3] Processing: POP- Mango 1.pdf (Andra Pradesh)
+[3] FAILED: POP- Mango 1.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[4] Processing: POP- Mango.pdf (Andra Pradesh)
+[4] FAILED: POP- Mango.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[5] Processing: POP- Onion.pdf (Andra Pradesh)
+[5] FAILED: POP- Onion.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[6] Processing: POP- Papaya.pdf (Andra Pradesh)
+[6] FAILED: POP- Papaya.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[7] Processing: POP- Pomegranate.pdf (Andra Pradesh)
+[7] FAILED: POP- Pomegranate.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[8] Processing: POP- Turmeric.pdf (Andra Pradesh)
+[8] FAILED: POP- Turmeric.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[9] Processing: ABPC-4-3.pdf (Maharashtra)
+[9] FAILED: ABPC-4-3.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[10] Processing: AHB-1200.pdf (Maharashtra)
+[10] FAILED: AHB-1200.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[11] Processing: AHB-1269.pdf (Maharashtra)
+[11] FAILED: AHB-1269.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[12] Processing: AHB-1666.pdf (Maharashtra)
+[12] FAILED: AHB-1666.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[13] Processing: AIMP-92901.pdf (Maharashtra)
+[13] FAILED: AIMP-92901.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[14] Processing: Ajantha.pdf (Maharashtra)
+[14] FAILED: Ajantha.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[15] Processing: Aviskar.pdf (Maharashtra)
+[15] FAILED: Aviskar.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[16] Processing: BD-2.pdf (Maharashtra)
+[16] FAILED: BD-2.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[17] Processing: BDN-708.pdf (Maharashtra)
+[17] FAILED: BDN-708.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[18] Processing: BDN-711.pdf (Maharashtra)
+[18] FAILED: BDN-711.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[19] Processing: BDN-716.pdf (Maharashtra)
+[19] FAILED: BDN-716.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[20] Processing: BDN-9-3.pdf (Maharashtra)
+[20] FAILED: BDN-9-3.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[21] Processing: BDNG-797.pdf (Maharashtra)
+[21] FAILED: BDNG-797.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[22] Processing: BDNGK-798.pdf (Maharashtra)
+[22] FAILED: BDNGK-798.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[23] Processing: BM-2002-1.pdf (Maharashtra)
+[23] FAILED: BM-2002-1.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[24] Processing: BM-2003-2.pdf (Maharashtra)
+[24] FAILED: BM-2003-2.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[25] Processing: BM-4.pdf (Maharashtra)
+[25] FAILED: BM-4.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[26] Processing: BPMR-145.pdf (Maharashtra)
+[26] FAILED: BPMR-145.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[27] Processing: BSMR-736.pdf (Maharashtra)
+[27] FAILED: BSMR-736.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[28] Processing: BSMR-853.pdf (Maharashtra)
+[28] FAILED: BSMR-853.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[29] Processing: Bhendi.pdf (Maharashtra)
+[29] FAILED: Bhendi.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[30] Processing: Black-Gram.pdf (Maharashtra)
+[30] FAILED: Black-Gram.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[31] Processing: CSH-25.pdf (Maharashtra)
+[31] FAILED: CSH-25.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[32] Processing: CSV-18.pdf (Maharashtra)
+[32] FAILED: CSV-18.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[33] Processing: Custard-Apple.pdf (Maharashtra)
+[33] FAILED: Custard-Apple.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[34] Processing: Groundnut-01.pdf (Maharashtra)
+[34] FAILED: Groundnut-01.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[35] Processing: Groundnut-02.pdf (Maharashtra)
+[35] FAILED: Groundnut-02.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[36] Processing: Groundnut-123.pdf (Maharashtra)
+[36] FAILED: Groundnut-123.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[37] Processing: Groundnut-45.pdf (Maharashtra)
+[37] FAILED: Groundnut-45.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[38] Processing: Linseed-93.pdf (Maharashtra)
+[38] FAILED: Linseed-93.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[39] Processing: Linseed-RLC-04.pdf (Maharashtra)
+[39] FAILED: Linseed-RLC-04.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[40] Processing: MAUS-158.pdf (Maharashtra)
+[40] FAILED: MAUS-158.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[41] Processing: MAUS-162.pdf (Maharashtra)
+[41] FAILED: MAUS-162.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[42] Processing: MAUS-612.pdf (Maharashtra)
+[42] FAILED: MAUS-612.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[43] Processing: MAUS-71.pdf (Maharashtra)
+[43] FAILED: MAUS-71.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[44] Processing: MAUS-81.pdf (Maharashtra)
+[44] FAILED: MAUS-81.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[45] Processing: Mirchi.pdf (Maharashtra)
+[45] FAILED: Mirchi.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[46] Processing: Muktta.pdf (Maharashtra)
+[46] FAILED: Muktta.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[47] Processing: NH-452-(Renuka).pdf (Maharashtra)
+[47] FAILED: NH-452-(Renuka).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[48] Processing: NH-545.pdf (Maharashtra)
+[48] FAILED: NH-545.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[49] Processing: NH-615-(Anusaya).pdf (Maharashtra)
+[49] FAILED: NH-615-(Anusaya).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[50] Processing: NH-635.pdf (Maharashtra)
+[50] FAILED: NH-635.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[51] Processing: NHH-250.pdf (Maharashtra)
+[51] FAILED: NHH-250.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[52] Processing: NHH-44.pdf (Maharashtra)
+[52] FAILED: NHH-44.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[53] Processing: NHH-715.pdf (Maharashtra)
+[53] FAILED: NHH-715.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[54] Processing: No-263.pdf (Maharashtra)
+[54] FAILED: No-263.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[55] Processing: PA-08.pdf (Maharashtra)
+[55] FAILED: PA-08.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[56] Processing: PA-141-(Namdeo).pdf (Maharashtra)
+[56] FAILED: PA-141-(Namdeo).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[57] Processing: PA-183-(Sawta).pdf (Maharashtra)
+[57] FAILED: PA-183-(Sawta).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[58] Processing: PA-255-(Parbhani-Turab).pdf (Maharashtra)
+[58] FAILED: PA-255-(Parbhani-Turab).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[59] Processing: PA-32-(Eknath).pdf (Maharashtra)
+[59] FAILED: PA-32-(Eknath).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[60] Processing: PA-402-(Vinayak).pdf (Maharashtra)
+[60] FAILED: PA-402-(Vinayak).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[61] Processing: PA-528.pdf (Maharashtra)
+[61] FAILED: PA-528.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[62] Processing: PBN-12.pdf (Maharashtra)
+[62] FAILED: PBN-12.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[63] Processing: PBN-40.pdf (Maharashtra)
+[63] FAILED: PBN-40.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[64] Processing: PBN-86.pdf (Maharashtra)
+[64] FAILED: PBN-86.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[65] Processing: PBNR.pdf (Maharashtra)
+[65] FAILED: PBNR.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[66] Processing: PH-348-(Yamuna).pdf (Maharashtra)
+[66] FAILED: PH-348-(Yamuna).pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[67] Processing: PHA-46.pdf (Maharashtra)
+[67] FAILED: PHA-46.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[68] Processing: PHH-316.pdf (Maharashtra)
+[68] FAILED: PHH-316.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[69] Processing: PPC-6.pdf (Maharashtra)
+[69] FAILED: PPC-6.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[70] Processing: PVK-400.pdf (Maharashtra)
+[70] FAILED: PVK-400.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[71] Processing: PVK-801.pdf (Maharashtra)
+[71] FAILED: PVK-801.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[72] Processing: PVK-809.pdf (Maharashtra)
+[72] FAILED: PVK-809.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[73] Processing: Parag.pdf (Maharashtra)
+[73] FAILED: Parag.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[74] Processing: Prabhavti.pdf (Maharashtra)
+[74] FAILED: Prabhavti.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[75] Processing: Pratisthan.pdf (Maharashtra)
+[75] FAILED: Pratisthan.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[76] Processing: Release_Impliments.pdf (Maharashtra)
+[76] FAILED: Release_Impliments.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[77] Processing: SPH-1641.pdf (Maharashtra)
+[77] FAILED: SPH-1641.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[78] Processing: SPV-1411.pdf (Maharashtra)
+[78] FAILED: SPV-1411.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[79] Processing: Shiwai.pdf (Maharashtra)
+[79] FAILED: Shiwai.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[80] Processing: Sugandha.pdf (Maharashtra)
+[80] FAILED: Sugandha.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[81] Processing: Sunflower-08.pdf (Maharashtra)
+[81] FAILED: Sunflower-08.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[82] Processing: Sunflower-11.pdf (Maharashtra)
+[82] FAILED: Sunflower-11.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[83] Processing: Sunflower-171.pdf (Maharashtra)
+[83] FAILED: Sunflower-171.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[84] Processing: Sunflower-35.pdf (Maharashtra)
+[84] FAILED: Sunflower-35.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[85] Processing: TJP-48.pdf (Maharashtra)
+[85] FAILED: TJP-48.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[86] Processing: TP-7.pdf (Maharashtra)
+[86] FAILED: TP-7.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[87] Processing: Terna.pdf (Maharashtra)
+[87] FAILED: Terna.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[88] Processing: Tomato.pdf (Maharashtra)
+[88] FAILED: Tomato.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[89] Processing: Yellora.pdf (Maharashtra)
+[89] FAILED: Yellora.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+[90] Processing: final.pdf (Rajasthan)
+[90] FAILED: final.pdf (HTTP 401) - {"error":"Authorization header should start with \"Basic \" or \"Bearer \""}
+
+=== Batch Processing Complete ===
+Total: 90 | Success: 0 | Failed: 90
+Starting DPT-2 batch processing for garbled files
+Input CSV: /home/aic_u1/aic_u1/pop_scraping/dpt2_processing/garbled_pdfs.csv
+[1] Processing: POP- Betelvine.pdf (Andra Pradesh)
+[1] SUCCESS: POP- Betelvine.pdf -> saved md, json
+[2] Processing: POP- Coconut.pdf (Andra Pradesh)
+[2] SUCCESS: POP- Coconut.pdf -> saved md, json
+[3] Processing: POP- Mango 1.pdf (Andra Pradesh)
+[3] SUCCESS: POP- Mango 1.pdf -> saved md, json
+[4] Processing: POP- Mango.pdf (Andra Pradesh)
+[4] SUCCESS: POP- Mango.pdf -> saved md, json
+[5] Processing: POP- Onion.pdf (Andra Pradesh)
+[5] SUCCESS: POP- Onion.pdf -> saved md, json
+[6] Processing: POP- Papaya.pdf (Andra Pradesh)
+[6] SUCCESS: POP- Papaya.pdf -> saved md, json
+[7] Processing: POP- Pomegranate.pdf (Andra Pradesh)
+[7] SUCCESS: POP- Pomegranate.pdf -> saved md, json
+[8] Processing: POP- Turmeric.pdf (Andra Pradesh)
+[8] SUCCESS: POP- Turmeric.pdf -> saved md, json
+[9] Processing: ABPC-4-3.pdf (Maharashtra)
+[9] SUCCESS: ABPC-4-3.pdf -> saved md, json
+[10] Processing: AHB-1200.pdf (Maharashtra)
+[10] SUCCESS: AHB-1200.pdf -> saved md, json
+[11] Processing: AHB-1269.pdf (Maharashtra)
+[11] SUCCESS: AHB-1269.pdf -> saved md, json
+[12] Processing: AHB-1666.pdf (Maharashtra)
+[12] SUCCESS: AHB-1666.pdf -> saved md, json
+[13] Processing: AIMP-92901.pdf (Maharashtra)
+[13] SUCCESS: AIMP-92901.pdf -> saved md, json
+[14] Processing: Ajantha.pdf (Maharashtra)
+[14] SUCCESS: Ajantha.pdf -> saved md, json
+[15] Processing: Aviskar.pdf (Maharashtra)
+[15] SUCCESS: Aviskar.pdf -> saved md, json
+[16] Processing: BD-2.pdf (Maharashtra)
+[16] SUCCESS: BD-2.pdf -> saved md, json
+[17] Processing: BDN-708.pdf (Maharashtra)
+[17] SUCCESS: BDN-708.pdf -> saved md, json
+[18] Processing: BDN-711.pdf (Maharashtra)
+[18] SUCCESS: BDN-711.pdf -> saved md, json
+[19] Processing: BDN-716.pdf (Maharashtra)
+[19] SUCCESS: BDN-716.pdf -> saved md, json
+[20] Processing: BDN-9-3.pdf (Maharashtra)
+[20] SUCCESS: BDN-9-3.pdf -> saved md, json
+[21] Processing: BDNG-797.pdf (Maharashtra)
+[21] SUCCESS: BDNG-797.pdf -> saved md, json
+[22] Processing: BDNGK-798.pdf (Maharashtra)
+[22] SUCCESS: BDNGK-798.pdf -> saved md, json
+[23] Processing: BM-2002-1.pdf (Maharashtra)
+[23] SUCCESS: BM-2002-1.pdf -> saved md, json
+[24] Processing: BM-2003-2.pdf (Maharashtra)
+[24] SUCCESS: BM-2003-2.pdf -> saved md, json
+[25] Processing: BM-4.pdf (Maharashtra)
+[25] SUCCESS: BM-4.pdf -> saved md, json
+[26] Processing: BPMR-145.pdf (Maharashtra)
+[26] SUCCESS: BPMR-145.pdf -> saved md, json
+[27] Processing: BSMR-736.pdf (Maharashtra)
+[27] SUCCESS: BSMR-736.pdf -> saved md, json
+[28] Processing: BSMR-853.pdf (Maharashtra)
+[28] SUCCESS: BSMR-853.pdf -> saved md, json
+[29] Processing: Bhendi.pdf (Maharashtra)
+[29] SUCCESS: Bhendi.pdf -> saved md, json
+[30] Processing: Black-Gram.pdf (Maharashtra)
+[30] SUCCESS: Black-Gram.pdf -> saved md, json
+[31] Processing: CSH-25.pdf (Maharashtra)
+[31] SUCCESS: CSH-25.pdf -> saved md, json
+[32] Processing: CSV-18.pdf (Maharashtra)
+[32] SUCCESS: CSV-18.pdf -> saved md, json
+[33] Processing: Custard-Apple.pdf (Maharashtra)
+[33] SUCCESS: Custard-Apple.pdf -> saved md, json
+[34] Processing: Groundnut-01.pdf (Maharashtra)
+[34] SUCCESS: Groundnut-01.pdf -> saved md, json
+[35] Processing: Groundnut-02.pdf (Maharashtra)
+[35] SUCCESS: Groundnut-02.pdf -> saved md, json
+[36] Processing: Groundnut-123.pdf (Maharashtra)
+[36] SUCCESS: Groundnut-123.pdf -> saved md, json
+[37] Processing: Groundnut-45.pdf (Maharashtra)
+[37] SUCCESS: Groundnut-45.pdf -> saved md, json
+[38] Processing: Linseed-93.pdf (Maharashtra)
+[38] SUCCESS: Linseed-93.pdf -> saved md, json
+[39] Processing: Linseed-RLC-04.pdf (Maharashtra)
+[39] SUCCESS: Linseed-RLC-04.pdf -> saved md, json
+[40] Processing: MAUS-158.pdf (Maharashtra)
+[40] SUCCESS: MAUS-158.pdf -> saved md, json
+[41] Processing: MAUS-162.pdf (Maharashtra)
+[41] SUCCESS: MAUS-162.pdf -> saved md, json
+[42] Processing: MAUS-612.pdf (Maharashtra)
+[42] SUCCESS: MAUS-612.pdf -> saved md, json
+[43] Processing: MAUS-71.pdf (Maharashtra)
+[43] SUCCESS: MAUS-71.pdf -> saved md, json
+[44] Processing: MAUS-81.pdf (Maharashtra)
+[44] SUCCESS: MAUS-81.pdf -> saved md, json
+[45] Processing: Mirchi.pdf (Maharashtra)
+[45] SUCCESS: Mirchi.pdf -> saved md, json
+[46] Processing: Muktta.pdf (Maharashtra)
+[46] SUCCESS: Muktta.pdf -> saved md, json
+[47] Processing: NH-452-(Renuka).pdf (Maharashtra)
+[47] SUCCESS: NH-452-(Renuka).pdf -> saved md, json
+[48] Processing: NH-545.pdf (Maharashtra)
+[48] SUCCESS: NH-545.pdf -> saved md, json
+[49] Processing: NH-615-(Anusaya).pdf (Maharashtra)
+[49] SUCCESS: NH-615-(Anusaya).pdf -> saved md, json
+[50] Processing: NH-635.pdf (Maharashtra)
+[50] SUCCESS: NH-635.pdf -> saved md, json
+[51] Processing: NHH-250.pdf (Maharashtra)
+[51] SUCCESS: NHH-250.pdf -> saved md, json
+[52] Processing: NHH-44.pdf (Maharashtra)
+[52] SUCCESS: NHH-44.pdf -> saved md, json
+[53] Processing: NHH-715.pdf (Maharashtra)
+[53] SUCCESS: NHH-715.pdf -> saved md, json
+[54] Processing: No-263.pdf (Maharashtra)
+[54] SUCCESS: No-263.pdf -> saved md, json
+[55] Processing: PA-08.pdf (Maharashtra)
+[55] SUCCESS: PA-08.pdf -> saved md, json
+[56] Processing: PA-141-(Namdeo).pdf (Maharashtra)
+[56] SUCCESS: PA-141-(Namdeo).pdf -> saved md, json
+[57] Processing: PA-183-(Sawta).pdf (Maharashtra)
+[57] SUCCESS: PA-183-(Sawta).pdf -> saved md, json
+[58] Processing: PA-255-(Parbhani-Turab).pdf (Maharashtra)
+[58] SUCCESS: PA-255-(Parbhani-Turab).pdf -> saved md, json
+[59] Processing: PA-32-(Eknath).pdf (Maharashtra)
+[59] SUCCESS: PA-32-(Eknath).pdf -> saved md, json
+[60] Processing: PA-402-(Vinayak).pdf (Maharashtra)
+[60] SUCCESS: PA-402-(Vinayak).pdf -> saved md, json
+[61] Processing: PA-528.pdf (Maharashtra)
+[61] SUCCESS: PA-528.pdf -> saved md, json
+[62] Processing: PBN-12.pdf (Maharashtra)
+[62] SUCCESS: PBN-12.pdf -> saved md, json
+[63] Processing: PBN-40.pdf (Maharashtra)
+[63] SUCCESS: PBN-40.pdf -> saved md, json
+[64] Processing: PBN-86.pdf (Maharashtra)
+[64] SUCCESS: PBN-86.pdf -> saved md, json
+[65] Processing: PBNR.pdf (Maharashtra)
+[65] SUCCESS: PBNR.pdf -> saved md, json
+[66] Processing: PH-348-(Yamuna).pdf (Maharashtra)
+[66] SUCCESS: PH-348-(Yamuna).pdf -> saved md, json
+[67] Processing: PHA-46.pdf (Maharashtra)
+[67] SUCCESS: PHA-46.pdf -> saved md, json
+[68] Processing: PHH-316.pdf (Maharashtra)
+[68] SUCCESS: PHH-316.pdf -> saved md, json
+[69] Processing: PPC-6.pdf (Maharashtra)
+[69] SUCCESS: PPC-6.pdf -> saved md, json
+[70] Processing: PVK-400.pdf (Maharashtra)
+[70] SUCCESS: PVK-400.pdf -> saved md, json
+[71] Processing: PVK-801.pdf (Maharashtra)
+[71] SUCCESS: PVK-801.pdf -> saved md, json
+[72] Processing: PVK-809.pdf (Maharashtra)
+[72] SUCCESS: PVK-809.pdf -> saved md, json
+[73] Processing: Parag.pdf (Maharashtra)
+[73] SUCCESS: Parag.pdf -> saved md, json
+[74] Processing: Prabhavti.pdf (Maharashtra)
+[74] SUCCESS: Prabhavti.pdf -> saved md, json
+[75] Processing: Pratisthan.pdf (Maharashtra)
+[75] SUCCESS: Pratisthan.pdf -> saved md, json
+[76] Processing: Release_Impliments.pdf (Maharashtra)
+[76] SUCCESS: Release_Impliments.pdf -> saved md, json
+[77] Processing: SPH-1641.pdf (Maharashtra)
+[77] SUCCESS: SPH-1641.pdf -> saved md, json
+[78] Processing: SPV-1411.pdf (Maharashtra)
+[78] SUCCESS: SPV-1411.pdf -> saved md, json
+[79] Processing: Shiwai.pdf (Maharashtra)
+[79] SUCCESS: Shiwai.pdf -> saved md, json
+[80] Processing: Sugandha.pdf (Maharashtra)
+[80] SUCCESS: Sugandha.pdf -> saved md, json
+[81] Processing: Sunflower-08.pdf (Maharashtra)
+[81] SUCCESS: Sunflower-08.pdf -> saved md, json
+[82] Processing: Sunflower-11.pdf (Maharashtra)
+[82] SUCCESS: Sunflower-11.pdf -> saved md, json
+[83] Processing: Sunflower-171.pdf (Maharashtra)
+[83] SUCCESS: Sunflower-171.pdf -> saved md, json
+[84] Processing: Sunflower-35.pdf (Maharashtra)
+[84] SUCCESS: Sunflower-35.pdf -> saved md, json
+[85] Processing: TJP-48.pdf (Maharashtra)
+[85] SUCCESS: TJP-48.pdf -> saved md, json
+[86] Processing: TP-7.pdf (Maharashtra)
+[86] SUCCESS: TP-7.pdf -> saved md, json
+[87] Processing: Terna.pdf (Maharashtra)
+[87] SUCCESS: Terna.pdf -> saved md, json
+[88] Processing: Tomato.pdf (Maharashtra)
+[88] SUCCESS: Tomato.pdf -> saved md, json
+[89] Processing: Yellora.pdf (Maharashtra)
+[89] SUCCESS: Yellora.pdf -> saved md, json
+[90] Processing: final.pdf (Rajasthan)
+[90] SUCCESS: final.pdf -> saved md, json
+
+=== Batch Processing Complete ===
+Total: 90 | Success: 90 | Failed: 0

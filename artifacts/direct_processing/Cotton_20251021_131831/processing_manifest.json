@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-21T13:18:51.348703",
+  "input_pdf": "/home/aic_u1/aic_u1/pop_scraping/data/raw/POP Bank/Andra Pradesh/Cotton.pdf",
+  "pdf_name": "Cotton.pdf",
+  "classification": {
+    "forced": true,
+    "phase": 1
+  },
+  "processing": {
+    "status": "success",
+    "phase": 1,
+    "json_path": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/Cotton_20251021_131831/Cotton_output.json",
+    "md_path": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/Cotton_20251021_131831/Cotton_document.md",
+    "output_dir": "artifacts/direct_processing/Cotton_20251021_131831"
+  },
+  "outputs": {
+    "json": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/Cotton_20251021_131831/Cotton_output.json",
+    "markdown": "/home/aic_u1/aic_u1/pop_scraping/artifacts/direct_processing/Cotton_20251021_131831/Cotton_document.md",
+    "directory": "artifacts/direct_processing/Cotton_20251021_131831"
+  }
+}

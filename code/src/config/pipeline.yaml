@@ -1,0 +1,31 @@
+paths:
+  data_root: "data/POP Bank"
+  artifacts_root: "artifacts"
+
+routing:
+  min_text_chars_per_page: 100
+  pct_pages_with_text: 0.8
+
+ocr:
+  dpi: 300
+  min_avg_conf: 0.80
+  angle_cls: true
+
+vlm:
+  enable: true
+  model: "Qwen/Qwen2-VL-7B-Instruct"
+  dpi: 300
+  min_page_conf: 0.80      # rescue pages if avg OCR conf < 0.80
+  low_box_thr: 0.60        # rescue regions if box conf < 0.60
+  max_pages_to_rescue: 4   # safety cap per document
+  enable_tables: true      # run table detector if available
+  table_score_thr: 0.75
+
+
+translation:
+  enable: true
+  engine: "ai4bharat/indictrans2-indic-en-1B"
+  batch_tokens: 2048
+
+qc:
+  sample_backtranslation: 0  # keep 0 initially; raise later

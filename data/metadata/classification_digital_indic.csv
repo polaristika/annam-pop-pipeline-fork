@@ -1,0 +1,4 @@
+filename,state,conf_band,lang_guess,lang_conf,digital_guess,garbled_detected,page_count,size_bytes,file_path
+diseases that cannot be cured by medicine.pdf,Tamilnadu,No Detection (0.0),unsure,0.0,True,False,29.0,1570132,data/POP Bank/Tamilnadu/diseases that cannot be cured by medicine.pdf
+Trademark-2.pdf,Uttarpradesh,No Detection (0.0),unsure,0.0,True,False,5.0,2022191,data/POP Bank/Uttarpradesh/Trademark-2.pdf
+Noynadi_noymulta_nadi_the_velayutham.pdf,Tamilnadu,Very Low (<0.3),unsure,0.0599,True,False,104.0,4190313,data/POP Bank/Tamilnadu/Noynadi_noymulta_nadi_the_velayutham.pdf

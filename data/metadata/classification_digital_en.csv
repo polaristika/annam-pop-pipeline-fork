@@ -1,0 +1,268 @@
+filename,state,conf_band,lang_guess,lang_conf,digital_guess,garbled_detected,page_count,size_bytes,file_path
+POP- Betelvine.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,4.0,51734,data/POP Bank/Andra Pradesh/POP- Betelvine.pdf
+POP- Coconut.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,40.0,306898,data/POP Bank/Andra Pradesh/POP- Coconut.pdf
+POP- Mango 1.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,8.0,206473,data/POP Bank/Andra Pradesh/POP- Mango 1.pdf
+POP- Mango.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,8.0,143134,data/POP Bank/Andra Pradesh/POP- Mango.pdf
+POP- Onion.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,2.0,55443,data/POP Bank/Andra Pradesh/POP- Onion.pdf
+POP- Papaya.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,4.0,85285,data/POP Bank/Andra Pradesh/POP- Papaya.pdf
+POP- Pomegranate.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,2.0,221765,data/POP Bank/Andra Pradesh/POP- Pomegranate.pdf
+POP- Turmeric.pdf,Andra Pradesh,High (≥0.7),indic,0.8,True,True,4.0,59618,data/POP Bank/Andra Pradesh/POP- Turmeric.pdf
+ABPC-4-3.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,168785,data/POP Bank/Maharashtra/ABPC-4-3.pdf
+AHB-1200.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,205932,data/POP Bank/Maharashtra/AHB-1200.pdf
+AHB-1269.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,193411,data/POP Bank/Maharashtra/AHB-1269.pdf
+AHB-1666.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,93026,data/POP Bank/Maharashtra/AHB-1666.pdf
+AIMP-92901.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,167863,data/POP Bank/Maharashtra/AIMP-92901.pdf
+Ajantha.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,274714,data/POP Bank/Maharashtra/Ajantha.pdf
+Aviskar.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,190815,data/POP Bank/Maharashtra/Aviskar.pdf
+BD-2.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,153304,data/POP Bank/Maharashtra/BD-2.pdf
+BDN-708.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,179329,data/POP Bank/Maharashtra/BDN-708.pdf
+BDN-711.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,152634,data/POP Bank/Maharashtra/BDN-711.pdf
+BDN-716.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,132512,data/POP Bank/Maharashtra/BDN-716.pdf
+BDN-9-3.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,136527,data/POP Bank/Maharashtra/BDN-9-3.pdf
+BDNG-797.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,123082,data/POP Bank/Maharashtra/BDNG-797.pdf
+BDNGK-798.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,136924,data/POP Bank/Maharashtra/BDNGK-798.pdf
+BM-2002-1.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,136118,data/POP Bank/Maharashtra/BM-2002-1.pdf
+BM-2003-2.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,1.0,104987,data/POP Bank/Maharashtra/BM-2003-2.pdf
+BM-4.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,1.0,134003,data/POP Bank/Maharashtra/BM-4.pdf
+BPMR-145.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,1.0,141265,data/POP Bank/Maharashtra/BPMR-145.pdf
+BSMR-736.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,166318,data/POP Bank/Maharashtra/BSMR-736.pdf
+BSMR-853.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,150544,data/POP Bank/Maharashtra/BSMR-853.pdf
+Bhendi.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,255617,data/POP Bank/Maharashtra/Bhendi.pdf
+Black-Gram.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,142653,data/POP Bank/Maharashtra/Black-Gram.pdf
+CSH-25.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,198217,data/POP Bank/Maharashtra/CSH-25.pdf
+CSV-18.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,136870,data/POP Bank/Maharashtra/CSV-18.pdf
+Custard-Apple.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,187712,data/POP Bank/Maharashtra/Custard-Apple.pdf
+Groundnut-01.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,283812,data/POP Bank/Maharashtra/Groundnut-01.pdf
+Groundnut-02.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,177683,data/POP Bank/Maharashtra/Groundnut-02.pdf
+Groundnut-123.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,293939,data/POP Bank/Maharashtra/Groundnut-123.pdf
+Groundnut-45.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,274016,data/POP Bank/Maharashtra/Groundnut-45.pdf
+Linseed-93.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,349638,data/POP Bank/Maharashtra/Linseed-93.pdf
+Linseed-RLC-04.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,420759,data/POP Bank/Maharashtra/Linseed-RLC-04.pdf
+MAUS-158.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,4.0,262773,data/POP Bank/Maharashtra/MAUS-158.pdf
+MAUS-162.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,4.0,241135,data/POP Bank/Maharashtra/MAUS-162.pdf
+MAUS-612.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,4.0,238564,data/POP Bank/Maharashtra/MAUS-612.pdf
+MAUS-71.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,4.0,245963,data/POP Bank/Maharashtra/MAUS-71.pdf
+MAUS-81.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,4.0,230658,data/POP Bank/Maharashtra/MAUS-81.pdf
+Mirchi.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,275859,data/POP Bank/Maharashtra/Mirchi.pdf
+Muktta.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,186682,data/POP Bank/Maharashtra/Muktta.pdf
+NH-452-(Renuka).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,215943,data/POP Bank/Maharashtra/NH-452-(Renuka).pdf
+NH-545.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,215624,data/POP Bank/Maharashtra/NH-545.pdf
+NH-615-(Anusaya).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,245603,data/POP Bank/Maharashtra/NH-615-(Anusaya).pdf
+NH-635.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,230416,data/POP Bank/Maharashtra/NH-635.pdf
+NHH-250.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,193343,data/POP Bank/Maharashtra/NHH-250.pdf
+NHH-44.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,173022,data/POP Bank/Maharashtra/NHH-44.pdf
+NHH-715.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,261575,data/POP Bank/Maharashtra/NHH-715.pdf
+No-263.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,200785,data/POP Bank/Maharashtra/No-263.pdf
+PA-08.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,119250,data/POP Bank/Maharashtra/PA-08.pdf
+PA-141-(Namdeo).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,118923,data/POP Bank/Maharashtra/PA-141-(Namdeo).pdf
+PA-183-(Sawta).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,118743,data/POP Bank/Maharashtra/PA-183-(Sawta).pdf
+PA-255-(Parbhani-Turab).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,120903,data/POP Bank/Maharashtra/PA-255-(Parbhani-Turab).pdf
+PA-32-(Eknath).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,99234,data/POP Bank/Maharashtra/PA-32-(Eknath).pdf
+PA-402-(Vinayak).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,114906,data/POP Bank/Maharashtra/PA-402-(Vinayak).pdf
+PA-528.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,116441,data/POP Bank/Maharashtra/PA-528.pdf
+PBN-12.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,194905,data/POP Bank/Maharashtra/PBN-12.pdf
+PBN-40.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,210861,data/POP Bank/Maharashtra/PBN-40.pdf
+PBN-86.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,209673,data/POP Bank/Maharashtra/PBN-86.pdf
+PBNR.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,125086,data/POP Bank/Maharashtra/PBNR.pdf
+PH-348-(Yamuna).pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,302319,data/POP Bank/Maharashtra/PH-348-(Yamuna).pdf
+PHA-46.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,125043,data/POP Bank/Maharashtra/PHA-46.pdf
+PHH-316.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,314799,data/POP Bank/Maharashtra/PHH-316.pdf
+PPC-6.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,168962,data/POP Bank/Maharashtra/PPC-6.pdf
+PVK-400.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,239983,data/POP Bank/Maharashtra/PVK-400.pdf
+PVK-801.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,136080,data/POP Bank/Maharashtra/PVK-801.pdf
+PVK-809.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,140701,data/POP Bank/Maharashtra/PVK-809.pdf
+Parag.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,123603,data/POP Bank/Maharashtra/Parag.pdf
+Prabhavti.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,103748,data/POP Bank/Maharashtra/Prabhavti.pdf
+Pratisthan.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,197045,data/POP Bank/Maharashtra/Pratisthan.pdf
+Release_Impliments.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,35.0,1800421,data/POP Bank/Maharashtra/Release_Impliments.pdf
+SPH-1641.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,231005,data/POP Bank/Maharashtra/SPH-1641.pdf
+SPV-1411.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,134233,data/POP Bank/Maharashtra/SPV-1411.pdf
+Shiwai.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,170028,data/POP Bank/Maharashtra/Shiwai.pdf
+Sugandha.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,1.0,72732,data/POP Bank/Maharashtra/Sugandha.pdf
+Sunflower-08.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,334850,data/POP Bank/Maharashtra/Sunflower-08.pdf
+Sunflower-11.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,338919,data/POP Bank/Maharashtra/Sunflower-11.pdf
+Sunflower-171.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,290890,data/POP Bank/Maharashtra/Sunflower-171.pdf
+Sunflower-35.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,3.0,306024,data/POP Bank/Maharashtra/Sunflower-35.pdf
+TJP-48.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,107555,data/POP Bank/Maharashtra/TJP-48.pdf
+TP-7.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,189999,data/POP Bank/Maharashtra/TP-7.pdf
+Terna.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,114983,data/POP Bank/Maharashtra/Terna.pdf
+Tomato.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,198702,data/POP Bank/Maharashtra/Tomato.pdf
+Yellora.pdf,Maharashtra,High (≥0.7),indic,0.8,True,True,2.0,187126,data/POP Bank/Maharashtra/Yellora.pdf
+Maha Agri-AI Policy_Marathi.pdf,Maharashtra,Low (0.3-0.5),indic,0.4493,True,False,48.0,10518552,data/POP Bank/Maharashtra/Maha Agri-AI Policy_Marathi.pdf
+Maha Agri-AI Policy_Marathi_v1.pdf,Maharashtra,Low (0.3-0.5),indic,0.4493,True,False,48.0,10518552,data/POP Bank/Maharashtra/Maha Agri-AI Policy_Marathi_v1.pdf
+Tuber-Crops-αñòαñéαñªαÑÇαñ»-αñ½αñ╕αñ▓αÑçαñé.pdf,Bihar,Low (0.3-0.5),unsure,0.3428,True,False,9.0,1064398,data/POP Bank/Bihar/Tuber-Crops-αñòαñéαñªαÑÇαñ»-αñ½αñ╕αñ▓αÑçαñé.pdf
+final.pdf,Rajasthan,Medium (0.5-0.7),indic,0.65,True,True,26.0,3079105,data/POP Bank/Rajasthan/final.pdf
+FARMER UNDERTAKING.pdf,Haryana,Medium (0.5-0.7),indic,0.5,True,False,1.0,410139,data/POP Bank/Haryana/FARMER UNDERTAKING.pdf
+IZqyZu5ycRQSvam9xIM1PB1AJR70ffrsBnsxszdU.pdf,Haryana,Medium (0.5-0.7),indic,0.5,True,False,275.0,746192,data/POP Bank/Haryana/IZqyZu5ycRQSvam9xIM1PB1AJR70ffrsBnsxszdU.pdf
+NiJmbB1ETFnjIlnMxFONcSd41erdMftx8Sq8k2ZJ.pdf,Haryana,Medium (0.5-0.7),indic,0.5,True,False,224.0,989003,data/POP Bank/Haryana/NiJmbB1ETFnjIlnMxFONcSd41erdMftx8Sq8k2ZJ.pdf
+Y1K0gxMO5qykKmYo2gBNkK7LjsmhYJLPsiNwI7fK.pdf,Haryana,Medium (0.5-0.7),indic,0.5,True,False,227.0,934502,data/POP Bank/Haryana/Y1K0gxMO5qykKmYo2gBNkK7LjsmhYJLPsiNwI7fK.pdf
+RabiCrops.pdf,Himachal Pradesh,Medium (0.5-0.7),indic,0.5,True,False,80.0,1851703,data/POP Bank/Himachal Pradesh/RabiCrops.pdf
+ContingentPlanYearly.pdf,Madhya Pradesh,Medium (0.5-0.7),indic,0.5,True,False,101.0,3460769,data/POP Bank/Madhya Pradesh/ContingentPlanYearly.pdf
+Krishak_suvidha_21092020.pdf,Madhya Pradesh,Medium (0.5-0.7),indic,0.5,True,False,17.0,316534,data/POP Bank/Madhya Pradesh/Krishak_suvidha_21092020.pdf
+kvklist211112.pdf,Madhya Pradesh,Medium (0.5-0.7),indic,0.5,True,False,13.0,372670,data/POP Bank/Madhya Pradesh/kvklist211112.pdf
+Shetkari_August2025-Combine.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,60.0,3482590,data/POP Bank/Maharashtra/Shetkari_August2025-Combine.pdf
+Shetkari_July2025-Combine.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,60.0,2992504,data/POP Bank/Maharashtra/Shetkari_July2025-Combine.pdf
+Shetkari_June2025-Combine.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,60.0,4206027,data/POP Bank/Maharashtra/Shetkari_June2025-Combine.pdf
+Shetkari_September-2025-COMBINE.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,60.0,11981420,data/POP Bank/Maharashtra/Shetkari_September-2025-COMBINE.pdf
+chickpea.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,2.0,28950,data/POP Bank/Maharashtra/chickpea.pdf
+linseed.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,1.0,22556,data/POP Bank/Maharashtra/linseed.pdf
+redgram.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,1.0,23413,data/POP Bank/Maharashtra/redgram.pdf
+αñòαñ┐αñ«αñ╛αñ¿_αñåαñºαñ╛αñ░αñ¡αÑéαññ_αñòαñ┐αñéαñ«αññ_αÑ¿αÑªαÑ¿αÑ¿.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,1.0,655538,data/POP Bank/Maharashtra/αñòαñ┐αñ«αñ╛αñ¿_αñåαñºαñ╛αñ░αñ¡αÑéαññ_αñòαñ┐αñéαñ«αññ_αÑ¿αÑªαÑ¿αÑ¿.pdf
+αñòαñ┐αñ«αñ╛αñ¿_αñåαñºαñ╛αñ░αñ¡αÑéαññ_αñòαñ┐αñéαñ«αññ_αÑ¿αÑªαÑ¿αÑ¿_v1.pdf,Maharashtra,Medium (0.5-0.7),indic,0.5,True,False,1.0,655538,data/POP Bank/Maharashtra/αñòαñ┐αñ«αñ╛αñ¿_αñåαñºαñ╛αñ░αñ¡αÑéαññ_αñòαñ┐αñéαñ«αññ_αÑ¿αÑªαÑ¿αÑ¿_v1.pdf
+FruitDropCitrusP.pdf,Punjab,Medium (0.5-0.7),indic,0.5,True,False,25.0,4772742,data/POP Bank/Punjab/FruitDropCitrusP.pdf
+pp_fruits_pbi.pdf,Punjab,Medium (0.5-0.7),indic,0.5,True,False,228.0,813377,data/POP Bank/Punjab/pp_fruits_pbi.pdf
+pp_sauni.pdf,Punjab,Medium (0.5-0.7),indic,0.5,True,False,232.0,3624341,data/POP Bank/Punjab/pp_sauni.pdf
+pp_veg_pbi.pdf,Punjab,Medium (0.5-0.7),indic,0.5,True,False,244.0,945930,data/POP Bank/Punjab/pp_veg_pbi.pdf
+res_cons.pdf,Punjab,Medium (0.5-0.7),indic,0.5,True,False,12.0,351574,data/POP Bank/Punjab/res_cons.pdf
+April - 2024.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1622441,data/POP Bank/Rajasthan/April - 2024.pdf
+April 2015.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,3315505,data/POP Bank/Rajasthan/April 2015.pdf
+April- 2025.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1683910,data/POP Bank/Rajasthan/April- 2025.pdf
+April-2022_Final[1].pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,974025,data/POP Bank/Rajasthan/April-2022_Final[1].pdf
+August-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1178535,data/POP Bank/Rajasthan/August-2022.pdf
+Bharatpur.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,86.0,5306534,data/POP Bank/Rajasthan/Bharatpur.pdf
+December-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,1373977,data/POP Bank/Rajasthan/December-2022.pdf
+February - 2024.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,2060737,data/POP Bank/Rajasthan/February - 2024.pdf
+February - 2025.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1771275,data/POP Bank/Rajasthan/February - 2025.pdf
+February-2022[1].pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1234076,data/POP Bank/Rajasthan/February-2022[1].pdf
+February-2023.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1541838,data/POP Bank/Rajasthan/February-2023.pdf
+February-RK-2015.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,1296992,data/POP Bank/Rajasthan/February-RK-2015.pdf
+Final_RKP_April_2020.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,1894741,data/POP Bank/Rajasthan/Final_RKP_April_2020.pdf
+January 2019 PDF.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,2760545,data/POP Bank/Rajasthan/January 2019 PDF.pdf
+January 2020 PDF.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1992598,data/POP Bank/Rajasthan/January 2020 PDF.pdf
+January- 2025.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1967216,data/POP Bank/Rajasthan/January- 2025.pdf
+January-2021.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1903539,data/POP Bank/Rajasthan/January-2021.pdf
+January-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1894633,data/POP Bank/Rajasthan/January-2022.pdf
+January-2023.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,1206712,data/POP Bank/Rajasthan/January-2023.pdf
+January-2024.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,32.0,1781399,data/POP Bank/Rajasthan/January-2024.pdf
+January-RK-2015.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,1139372,data/POP Bank/Rajasthan/January-RK-2015.pdf
+July-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1331721,data/POP Bank/Rajasthan/July-2022.pdf
+July-RK-2015.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,1116789,data/POP Bank/Rajasthan/July-RK-2015.pdf
+June-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,1549594,data/POP Bank/Rajasthan/June-2022.pdf
+June-2023.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1854638,data/POP Bank/Rajasthan/June-2023.pdf
+KVK Pratapgarh At a Glance_compressed.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,42.0,4608196,data/POP Bank/Rajasthan/KVK Pratapgarh At a Glance_compressed.pdf
+Krishi Navachar Book_PPS.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,136.0,3039312,data/POP Bank/Rajasthan/Krishi Navachar Book_PPS.pdf
+March 2015 PRATAP kHETI.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,28.0,1878224,data/POP Bank/Rajasthan/March 2015 PRATAP kHETI.pdf
+May 2020.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,2141134,data/POP Bank/Rajasthan/May 2020.pdf
+May-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1744883,data/POP Bank/Rajasthan/May-2022.pdf
+May-2023.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1611159,data/POP Bank/Rajasthan/May-2023.pdf
+November-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,1425467,data/POP Bank/Rajasthan/November-2022.pdf
+October-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,30.0,1726404,data/POP Bank/Rajasthan/October-2022.pdf
+September-2022.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,31.0,1648747,data/POP Bank/Rajasthan/September-2022.pdf
+Smart Village Iniciative_Book.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,20.0,4778822,data/POP Bank/Rajasthan/Smart Village Iniciative_Book.pdf
+Success Story_compressed.pdf,Rajasthan,Medium (0.5-0.7),indic,0.5,True,False,82.0,4407841,data/POP Bank/Rajasthan/Success Story_compressed.pdf
+castor.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,6.0,174436,data/POP Bank/Telangana/castor.pdf
+cotton.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,25.0,298969,data/POP Bank/Telangana/cotton.pdf
+greengram.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,16.0,212920,data/POP Bank/Telangana/greengram.pdf
+jowar.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,5.0,144842,data/POP Bank/Telangana/jowar.pdf
+redgram.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,15.0,252943,data/POP Bank/Telangana/redgram.pdf
+rice.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,30.0,374031,data/POP Bank/Telangana/rice.pdf
+seasame.pdf,Telangana,Medium (0.5-0.7),indic,0.5,True,False,3.0,137177,data/POP Bank/Telangana/seasame.pdf
+Improved Horticultural crop varieties.pdf,Andra Pradesh,No Detection (0.0),unsure,0.0,True,False,70.0,5432602,data/POP Bank/Andra Pradesh/Improved Horticultural crop varieties.pdf
+POP- Chilli.pdf,Andra Pradesh,No Detection (0.0),unsure,0.0,True,False,20.0,991403,data/POP Bank/Andra Pradesh/POP- Chilli.pdf
+POP- Guava.pdf,Andra Pradesh,No Detection (0.0),unsure,0.0,True,False,36.0,776292,data/POP Bank/Andra Pradesh/POP- Guava.pdf
+POP- Mango 2.pdf,Andra Pradesh,No Detection (0.0),unsure,0.0,True,False,60.0,940605,data/POP Bank/Andra Pradesh/POP- Mango 2.pdf
+POP- Wine Grape.pdf,Andra Pradesh,No Detection (0.0),unsure,0.0,True,False,36.0,2764949,data/POP Bank/Andra Pradesh/POP- Wine Grape.pdf
+POP-Spices Crops.pdf,Arunachal Pradesh,No Detection (0.0),unsure,0.0,True,False,31.0,2028859,data/POP Bank/Arunachal Pradesh/POP-Spices Crops.pdf
+EB-53-Barley-Cultivation-in-India-Pocket-Guide.pdf,Haryana,No Detection (0.0),unsure,0.0,True,False,28.0,993379,data/POP Bank/Haryana/EB-53-Barley-Cultivation-in-India-Pocket-Guide.pdf
+Javikneeti_Hindi.pdf,Madhya Pradesh,No Detection (0.0),unsure,0.0,True,False,19.0,243274,data/POP Bank/Madhya Pradesh/Javikneeti_Hindi.pdf
+"Letter No-13626, date-22.04.2025 Guideline Shree Anna Abhiyan.pdf",Odisha,No Detection (0.0),unsure,0.0,True,False,106.0,2838236,"data/POP Bank/Odisha/Letter No-13626, date-22.04.2025 Guideline Shree Anna Abhiyan.pdf"
+2401_Saade_Viah_Saade_Bhog.pdf,Punjab,No Detection (0.0),unsure,0.0,True,False,76.0,2116606,data/POP Bank/Punjab/2401_Saade_Viah_Saade_Bhog.pdf
+pp_hari.pdf,Punjab,No Detection (0.0),unsure,0.0,True,False,204.0,3168337,data/POP Bank/Punjab/pp_hari.pdf
+April 2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1326547,data/POP Bank/Rajasthan/April 2018.pdf
+April-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,31.0,1707286,data/POP Bank/Rajasthan/April-RK-2017.pdf
+August -RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1582025,data/POP Bank/Rajasthan/August -RK-2017.pdf
+August 2018 _v1.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1870289,data/POP Bank/Rajasthan/August 2018 _v1.pdf
+December 2016 RKP (Repaired) (2).pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1793479,data/POP Bank/Rajasthan/December 2016 RKP (Repaired) (2).pdf
+December 2017 final.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,2467289,data/POP Bank/Rajasthan/December 2017 final.pdf
+February 2017 new.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1535221,data/POP Bank/Rajasthan/February 2017 new.pdf
+"February, 2018.pdf",Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1595274,"data/POP Bank/Rajasthan/February, 2018.pdf"
+January 2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,2006081,data/POP Bank/Rajasthan/January 2017.pdf
+July-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1930539,data/POP Bank/Rajasthan/July-RK-2017.pdf
+July_2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,2230427,data/POP Bank/Rajasthan/July_2018.pdf
+June 2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1921659,data/POP Bank/Rajasthan/June 2018.pdf
+June-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1216846,data/POP Bank/Rajasthan/June-RK-2017.pdf
+March 2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1761770,data/POP Bank/Rajasthan/March 2018.pdf
+May 2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1850439,data/POP Bank/Rajasthan/May 2018.pdf
+May-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1414847,data/POP Bank/Rajasthan/May-RK-2017.pdf
+November-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,44.0,3781209,data/POP Bank/Rajasthan/November-RK-2017.pdf
+Novermber 2016 RKP.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,31.0,2274101,data/POP Bank/Rajasthan/Novermber 2016 RKP.pdf
+October 2018 final pdf.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1559647,data/POP Bank/Rajasthan/October 2018 final pdf.pdf
+October-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1358749,data/POP Bank/Rajasthan/October-RK-2017.pdf
+September 2018 final.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,2131971,data/POP Bank/Rajasthan/September 2018 final.pdf
+September-RK-2017.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,31.0,2105421,data/POP Bank/Rajasthan/September-RK-2017.pdf
+january 2018.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1646541,data/POP Bank/Rajasthan/january 2018.pdf
+january 2018_v1.pdf,Rajasthan,No Detection (0.0),unsure,0.0,True,False,32.0,1646541,data/POP Bank/Rajasthan/january 2018_v1.pdf
+EB-52-Wheat-Cultivation-in-India-Pocket-Guide.pdf,Tamilnadu,No Detection (0.0),unsure,0.0,True,False,40.0,973727,data/POP Bank/Tamilnadu/EB-52-Wheat-Cultivation-in-India-Pocket-Guide.pdf
+Model tree felling rules in agricullture lands_250630_124031.pdf,Tamilnadu,No Detection (0.0),unsure,0.0,True,False,9.0,488426,data/POP Bank/Tamilnadu/Model tree felling rules in agricullture lands_250630_124031.pdf
+2804235739SFP_Tripura.pdf,Tripura,No Detection (0.0),unsure,0.0,True,False,135.0,6632632,data/POP Bank/Tripura/2804235739SFP_Tripura.pdf
+Copyright_removed.pdf,Uttarpradesh,No Detection (0.0),unsure,0.0,True,False,4.0,10909456,data/POP Bank/Uttarpradesh/Copyright_removed.pdf
+pau_pub.pdf,Punjab,Very Low (<0.3),unsure,0.2891,True,False,2.0,307604,data/POP Bank/Punjab/pau_pub.pdf
+POP Floriculture Crops.pdf.pdf,Jammu and Kashmir,Very Low (<0.3),unsure,0.245,True,False,74.0,1488133,data/POP Bank/Jammu and Kashmir/POP Floriculture Crops.pdf.pdf
+1724927492.pdf,Haryana,Very Low (<0.3),unsure,0.2249,True,False,16.0,148209,data/POP Bank/Haryana/1724927492.pdf
+MahaParwana_Firms_Data_Seed_7_QC.pdf,Maharashtra,Very Low (<0.3),unsure,0.2173,True,False,17.0,1386708,data/POP Bank/Maharashtra/MahaParwana_Firms_Data_Seed_7_QC.pdf
+MahaParwana_Firms_Data_Seed_7_QC_v1.pdf,Maharashtra,Very Low (<0.3),unsure,0.2173,True,False,17.0,1386708,data/POP Bank/Maharashtra/MahaParwana_Firms_Data_Seed_7_QC_v1.pdf
+December 2018.pdf,Rajasthan,Very Low (<0.3),unsure,0.1903,True,False,31.0,2052011,data/POP Bank/Rajasthan/December 2018.pdf
+September -2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1853,True,False,32.0,1953434,data/POP Bank/Rajasthan/September -2020.pdf
+November 2018 final (Repaired).pdf,Rajasthan,Very Low (<0.3),unsure,0.184,True,False,31.0,1227204,data/POP Bank/Rajasthan/November 2018 final (Repaired).pdf
+September-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1791,True,False,32.0,1921622,data/POP Bank/Rajasthan/September-2021.pdf
+December-2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1766,True,False,31.0,1412297,data/POP Bank/Rajasthan/December-2020.pdf
+August 2019 PDF final.pdf,Rajasthan,Very Low (<0.3),unsure,0.1704,True,False,31.0,1203801,data/POP Bank/Rajasthan/August 2019 PDF final.pdf
+November - 2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1702,True,False,32.0,1875640,data/POP Bank/Rajasthan/November - 2020.pdf
+May 2019.pdf,Rajasthan,Very Low (<0.3),unsure,0.1692,True,False,31.0,1734864,data/POP Bank/Rajasthan/May 2019.pdf
+December-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1684,True,False,32.0,1503187,data/POP Bank/Rajasthan/December-2021.pdf
+Novenber-2021 (Raj_Kheti-Pratap).pdf,Rajasthan,Very Low (<0.3),unsure,0.1684,True,False,32.0,1751045,data/POP Bank/Rajasthan/Novenber-2021 (Raj_Kheti-Pratap).pdf
+August -2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1675,True,False,32.0,2168399,data/POP Bank/Rajasthan/August -2020.pdf
+June 2019 PDF Final.pdf,Rajasthan,Very Low (<0.3),unsure,0.1662,True,False,31.0,1571583,data/POP Bank/Rajasthan/June 2019 PDF Final.pdf
+September 2019 .pdf,Rajasthan,Very Low (<0.3),unsure,0.1649,True,False,31.0,972999,data/POP Bank/Rajasthan/September 2019 .pdf
+September-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1619,True,False,32.0,2006182,data/POP Bank/Rajasthan/September-2023.pdf
+"Final May, 07-07-2021.pdf",Rajasthan,Very Low (<0.3),unsure,0.1604,True,False,30.0,1342247,"data/POP Bank/Rajasthan/Final May, 07-07-2021.pdf"
+June-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1581,True,False,32.0,1105801,data/POP Bank/Rajasthan/June-2021.pdf
+December 2019.pdf,Rajasthan,Very Low (<0.3),unsure,0.1562,True,False,31.0,1135515,data/POP Bank/Rajasthan/December 2019.pdf
+September - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1559,True,False,32.0,1737633,data/POP Bank/Rajasthan/September - 2024.pdf
+December-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1526,True,False,32.0,1653730,data/POP Bank/Rajasthan/December-2023.pdf
+November 2019 final pdf.pdf,Rajasthan,Very Low (<0.3),unsure,0.1497,True,False,31.0,1947379,data/POP Bank/Rajasthan/November 2019 final pdf.pdf
+November-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1478,True,False,32.0,2592486,data/POP Bank/Rajasthan/November-2023.pdf
+December - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1466,True,False,32.0,2315555,data/POP Bank/Rajasthan/December - 2024.pdf
+SKM4-West Sikkim-30.10.12.pdf,Sikkim,Very Low (<0.3),unsure,0.1458,True,False,27.0,357479,data/POP Bank/Sikkim/SKM4-West Sikkim-30.10.12.pdf
+June - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1456,True,False,32.0,1627670,data/POP Bank/Rajasthan/June - 2024.pdf
+May - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1451,True,False,32.0,1809350,data/POP Bank/Rajasthan/May - 2024.pdf
+August-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1444,True,False,32.0,2554837,data/POP Bank/Rajasthan/August-2023.pdf
+October -2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1423,True,False,32.0,1467095,data/POP Bank/Rajasthan/October -2020.pdf
+August - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1415,True,False,32.0,1700485,data/POP Bank/Rajasthan/August - 2024.pdf
+November - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1399,True,False,32.0,1969118,data/POP Bank/Rajasthan/November - 2024.pdf
+Shetkari_May-combine (1).pdf,Maharashtra,Very Low (<0.3),unsure,0.1398,True,False,60.0,2965768,data/POP Bank/Maharashtra/Shetkari_May-combine (1).pdf
+Final PDF July2019.pdf,Rajasthan,Very Low (<0.3),unsure,0.1367,True,False,30.0,592446,data/POP Bank/Rajasthan/Final PDF July2019.pdf
+Forage crops - Lead paper.pdf,Tamilnadu,Very Low (<0.3),unsure,0.1367,True,False,9.0,2879146,data/POP Bank/Tamilnadu/Forage crops - Lead paper.pdf
+October-(2021) final.pdf,Rajasthan,Very Low (<0.3),unsure,0.1363,True,False,31.0,1446477,data/POP Bank/Rajasthan/October-(2021) final.pdf
+Final PDF of March 2019.pdf,Rajasthan,Very Low (<0.3),unsure,0.1341,True,False,31.0,1400846,data/POP Bank/Rajasthan/Final PDF of March 2019.pdf
+rajasthan kheti pratap july.pdf,Rajasthan,Very Low (<0.3),unsure,0.1337,True,False,32.0,2876565,data/POP Bank/Rajasthan/rajasthan kheti pratap july.pdf
+8_p.pdf,Punjab,Very Low (<0.3),unsure,0.1309,True,False,36.0,12397075,data/POP Bank/Punjab/8_p.pdf
+March 2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1301,True,False,32.0,1324136,data/POP Bank/Rajasthan/March 2020.pdf
+Final April 2019.pdf,Rajasthan,Very Low (<0.3),unsure,0.1287,True,False,31.0,1305037,data/POP Bank/Rajasthan/Final April 2019.pdf
+July-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1286,True,False,32.0,1702985,data/POP Bank/Rajasthan/July-2023.pdf
+prtapkheti 20july.pdf,Rajasthan,Very Low (<0.3),unsure,0.1273,True,False,32.0,1568006,data/POP Bank/Rajasthan/prtapkheti 20july.pdf
+March-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1251,True,False,31.0,2159063,data/POP Bank/Rajasthan/March-2021.pdf
+March-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1248,True,False,31.0,1490969,data/POP Bank/Rajasthan/March-2023.pdf
+October 2019 pdf.pdf,Rajasthan,Very Low (<0.3),unsure,0.1236,True,False,31.0,2263789,data/POP Bank/Rajasthan/October 2019 pdf.pdf
+July - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.123,True,False,32.0,1828956,data/POP Bank/Rajasthan/July - 2024.pdf
+October-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1226,True,False,32.0,1796682,data/POP Bank/Rajasthan/October-2023.pdf
+maize.pdf,Telangana,Very Low (<0.3),unsure,0.1209,True,False,12.0,198777,data/POP Bank/Telangana/maize.pdf
+March-2022_Final[1].pdf,Rajasthan,Very Low (<0.3),unsure,0.1199,True,False,32.0,1671810,data/POP Bank/Rajasthan/March-2022_Final[1].pdf
+October - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1167,True,False,32.0,1430678,data/POP Bank/Rajasthan/October - 2024.pdf
+February 2019 Final.pdf,Rajasthan,Very Low (<0.3),unsure,0.1162,True,False,31.0,1314280,data/POP Bank/Rajasthan/February 2019 Final.pdf
+April-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1146,True,False,30.0,1318373,data/POP Bank/Rajasthan/April-2021.pdf
+March- 2025 (1).pdf,Rajasthan,Very Low (<0.3),unsure,0.1133,True,False,32.0,1559521,data/POP Bank/Rajasthan/March- 2025 (1).pdf
+Final February 2020.pdf,Rajasthan,Very Low (<0.3),unsure,0.1132,True,False,31.0,1762009,data/POP Bank/Rajasthan/Final February 2020.pdf
+March - 2024.pdf,Rajasthan,Very Low (<0.3),unsure,0.1124,True,False,32.0,1683012,data/POP Bank/Rajasthan/March - 2024.pdf
+groundnut.pdf,Telangana,Very Low (<0.3),unsure,0.112,True,False,8.0,183776,data/POP Bank/Telangana/groundnut.pdf
+April-2023.pdf,Rajasthan,Very Low (<0.3),unsure,0.1112,True,False,31.0,1667766,data/POP Bank/Rajasthan/April-2023.pdf
+soyabeans.pdf,Telangana,Very Low (<0.3),unsure,0.1112,True,False,10.0,193262,data/POP Bank/Telangana/soyabeans.pdf
+NAGALAND-Crop-Calandar.pdf,Nagaland,Very Low (<0.3),unsure,0.1105,True,False,144.0,20342663,data/POP Bank/Nagaland/NAGALAND-Crop-Calandar.pdf
+February-2021.pdf,Rajasthan,Very Low (<0.3),unsure,0.1077,True,False,31.0,1336971,data/POP Bank/Rajasthan/February-2021.pdf
+pp_rabi.pdf,Punjab,Very Low (<0.3),unsure,0.0988,True,False,188.0,4357635,data/POP Bank/Punjab/pp_rabi.pdf
+pp_rabi_v1.pdf,Punjab,Very Low (<0.3),unsure,0.0988,True,False,188.0,4357635,data/POP Bank/Punjab/pp_rabi_v1.pdf
+Citrus_Cultivation_pbi.pdf,Punjab,Very Low (<0.3),unsure,0.0875,True,False,125.0,3660263,data/POP Bank/Punjab/Citrus_Cultivation_pbi.pdf
+August-2021(1).pdf,Rajasthan,Very Low (<0.3),unsure,0.0815,True,False,31.0,1940846,data/POP Bank/Rajasthan/August-2021(1).pdf
+"RKP June, 2020.pdf",Rajasthan,Very Low (<0.3),unsure,0.0802,True,False,31.0,2509884,"data/POP Bank/Rajasthan/RKP June, 2020.pdf"
+pp_kharif.pdf,Punjab,Very Low (<0.3),unsure,0.0591,True,False,212.0,3632572,data/POP Bank/Punjab/pp_kharif.pdf
+pp_kharif_v1.pdf,Punjab,Very Low (<0.3),unsure,0.0591,True,False,212.0,3632572,data/POP Bank/Punjab/pp_kharif_v1.pdf
