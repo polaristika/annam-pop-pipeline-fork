@@ -193,12 +193,32 @@ pop_scraping/
 ├── artifacts/
 │   ├── phase1_english/       # 152 processed outputs
 │   └── phase2_indic/         # 63 processed outputs
+├── pop_2/                     # Zoho download & MongoDB ingest (see pop_readme.md)
 ├── config/                    # YAML configurations
 ├── docs/                      # Documentation (6 guides)
 └── logs/                      # Processing logs
 ```
 
 **For detailed structure:** [Project Structure Guide](docs/02_PROJECT_STRUCTURE.md)
+
+---
+
+## 📥 pop_2 — Zoho Download & MongoDB Ingest
+
+The `pop_2/` folder extends the pipeline with two capabilities:
+
+**1. PDF acquisition from Zoho WorkDrive**
+- Authenticate once via `zoho_token_exchange.py` (saves `zoho_tokens.json`)
+- Download all state PDFs with `zoho_pdf_downloader.py` (8 parallel threads, skip-existing)
+- Deduplicate links with `extract_unique_link.py` — perceptual hashing on the first 3 PDF pages, outputs `unique_urls.xlsx`
+
+**2. MongoDB ingest of processed outputs**
+- `create_documents.py` — reads `unique_urls.xlsx` + `MetadataMaster.xlsx`, inserts metadata docs into MongoDB
+- `create_chunks.py` — splits Phase 1 JSON outputs into 500-word sliding-window chunks, embeds with `BAAI/bge-large-en` (1024-dim, GPU recommended), writes to MongoDB
+
+**Target collection:** `new_pdf_chunks_and_metadata.new_paulose_1`
+
+**See [pop_2_readme.md](pop_2_readme.md) for the full step-by-step guide.**
 
 ---
 
